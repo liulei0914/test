@@ -1,0 +1,1306 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Document>
+  <Engineering version="V18" />
+  <SW.Blocks.FB ID="0">
+    <AttributeList>
+      <AutoNumber>false</AutoNumber>
+      <HeaderAuthor />
+      <HeaderFamily />
+      <HeaderName />
+      <HeaderVersion>0.1</HeaderVersion>
+      <Interface><Sections xmlns="http://www.siemens.com/automation/Openness/SW/Interface/v5">
+  <Section Name="Input">
+    <Member Name="ACK" Datatype="Bool" Remanence="NonRetain" Accessibility="Public">
+      <AttributeList>
+        <BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute>
+        <BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute>
+        <BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute>
+      </AttributeList>
+    </Member>
+  </Section>
+  <Section Name="Output">
+    <Member Name="ES_OK" Datatype="Bool" Remanence="NonRetain" Accessibility="Public">
+      <AttributeList>
+        <BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute>
+        <BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute>
+        <BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute>
+      </AttributeList>
+    </Member>
+  </Section>
+  <Section Name="InOut" />
+  <Section Name="Static">
+    <Member Name="EStop1" Datatype="ESTOP1" Version="1.6" Accessibility="Public">
+      <AttributeList>
+        <BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute>
+        <BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute>
+        <BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute>
+        <BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute>
+      </AttributeList>
+      <Sections>
+        <Section Name="Input">
+          <Member Name="E_STOP" Datatype="Bool" />
+          <Member Name="ACK_NEC" Datatype="Bool" />
+          <Member Name="ACK" Datatype="Bool" />
+          <Member Name="TIME_DEL" Datatype="Time" />
+        </Section>
+        <Section Name="Output">
+          <Member Name="Q" Datatype="Bool" />
+          <Member Name="Q_DELAY" Datatype="Bool" />
+          <Member Name="ACK_REQ" Datatype="Bool" />
+          <Member Name="DIAG" Datatype="Byte" />
+        </Section>
+        <Section Name="InOut" />
+        <Section Name="Static" />
+      </Sections>
+    </Member>
+    <Member Name="EStop2" Datatype="ESTOP1" Version="1.6" Accessibility="Public">
+      <AttributeList>
+        <BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute>
+        <BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute>
+        <BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute>
+        <BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute>
+      </AttributeList>
+      <Sections>
+        <Section Name="Input">
+          <Member Name="E_STOP" Datatype="Bool" />
+          <Member Name="ACK_NEC" Datatype="Bool" />
+          <Member Name="ACK" Datatype="Bool" />
+          <Member Name="TIME_DEL" Datatype="Time" />
+        </Section>
+        <Section Name="Output">
+          <Member Name="Q" Datatype="Bool" />
+          <Member Name="Q_DELAY" Datatype="Bool" />
+          <Member Name="ACK_REQ" Datatype="Bool" />
+          <Member Name="DIAG" Datatype="Byte" />
+        </Section>
+        <Section Name="InOut" />
+        <Section Name="Static" />
+      </Sections>
+    </Member>
+    <Member Name="EStop3" Datatype="ESTOP1" Version="1.6" Accessibility="Public">
+      <AttributeList>
+        <BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute>
+        <BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute>
+        <BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute>
+        <BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute>
+      </AttributeList>
+      <Sections>
+        <Section Name="Input">
+          <Member Name="E_STOP" Datatype="Bool" />
+          <Member Name="ACK_NEC" Datatype="Bool" />
+          <Member Name="ACK" Datatype="Bool" />
+          <Member Name="TIME_DEL" Datatype="Time" />
+        </Section>
+        <Section Name="Output">
+          <Member Name="Q" Datatype="Bool" />
+          <Member Name="Q_DELAY" Datatype="Bool" />
+          <Member Name="ACK_REQ" Datatype="Bool" />
+          <Member Name="DIAG" Datatype="Byte" />
+        </Section>
+        <Section Name="InOut" />
+        <Section Name="Static" />
+      </Sections>
+    </Member>
+    <Member Name="EStop4" Datatype="ESTOP1" Version="1.6" Accessibility="Public">
+      <AttributeList>
+        <BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute>
+        <BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute>
+        <BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute>
+        <BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute>
+      </AttributeList>
+      <Sections>
+        <Section Name="Input">
+          <Member Name="E_STOP" Datatype="Bool" />
+          <Member Name="ACK_NEC" Datatype="Bool" />
+          <Member Name="ACK" Datatype="Bool" />
+          <Member Name="TIME_DEL" Datatype="Time" />
+        </Section>
+        <Section Name="Output">
+          <Member Name="Q" Datatype="Bool" />
+          <Member Name="Q_DELAY" Datatype="Bool" />
+          <Member Name="ACK_REQ" Datatype="Bool" />
+          <Member Name="DIAG" Datatype="Byte" />
+        </Section>
+        <Section Name="InOut" />
+        <Section Name="Static" />
+      </Sections>
+    </Member>
+    <Member Name="EStop5" Datatype="ESTOP1" Version="1.6" Accessibility="Public">
+      <AttributeList>
+        <BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute>
+        <BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute>
+        <BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute>
+        <BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute>
+      </AttributeList>
+      <Sections>
+        <Section Name="Input">
+          <Member Name="E_STOP" Datatype="Bool" />
+          <Member Name="ACK_NEC" Datatype="Bool" />
+          <Member Name="ACK" Datatype="Bool" />
+          <Member Name="TIME_DEL" Datatype="Time" />
+        </Section>
+        <Section Name="Output">
+          <Member Name="Q" Datatype="Bool" />
+          <Member Name="Q_DELAY" Datatype="Bool" />
+          <Member Name="ACK_REQ" Datatype="Bool" />
+          <Member Name="DIAG" Datatype="Byte" />
+        </Section>
+        <Section Name="InOut" />
+        <Section Name="Static" />
+      </Sections>
+    </Member>
+    <Member Name="EStop6" Datatype="ESTOP1" Version="1.6" Accessibility="Public">
+      <AttributeList>
+        <BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute>
+        <BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute>
+        <BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute>
+        <BooleanAttribute Name="SetPoint" SystemDefined="true">false</BooleanAttribute>
+      </AttributeList>
+      <Sections>
+        <Section Name="Input">
+          <Member Name="E_STOP" Datatype="Bool" />
+          <Member Name="ACK_NEC" Datatype="Bool" />
+          <Member Name="ACK" Datatype="Bool" />
+          <Member Name="TIME_DEL" Datatype="Time" />
+        </Section>
+        <Section Name="Output">
+          <Member Name="Q" Datatype="Bool" />
+          <Member Name="Q_DELAY" Datatype="Bool" />
+          <Member Name="ACK_REQ" Datatype="Bool" />
+          <Member Name="DIAG" Datatype="Byte" />
+        </Section>
+        <Section Name="InOut" />
+        <Section Name="Static" />
+      </Sections>
+    </Member>
+    <Member Name="door" Datatype="SFDOOR" Version="1.3" Accessibility="Public">
+      <AttributeList>
+        <BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute>
+        <BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute>
+        <BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute>
+        <BooleanAttribute Name="SetPoint" SystemDefined="true">false</BooleanAttribute>
+      </AttributeList>
+      <Sections>
+        <Section Name="Input">
+          <Member Name="IN1" Datatype="Bool" />
+          <Member Name="IN2" Datatype="Bool" />
+          <Member Name="QBAD_IN1" Datatype="Bool" />
+          <Member Name="QBAD_IN2" Datatype="Bool" />
+          <Member Name="OPEN_NEC" Datatype="Bool" />
+          <Member Name="ACK_NEC" Datatype="Bool" />
+          <Member Name="ACK" Datatype="Bool" />
+        </Section>
+        <Section Name="Output">
+          <Member Name="Q" Datatype="Bool" />
+          <Member Name="ACK_REQ" Datatype="Bool" />
+          <Member Name="DIAG" Datatype="Byte" />
+        </Section>
+        <Section Name="InOut" />
+        <Section Name="Static" />
+      </Sections>
+    </Member>
+    <Member Name="Key" Datatype="SFDOOR" Version="1.3" Accessibility="Public">
+      <AttributeList>
+        <BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute>
+        <BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute>
+        <BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute>
+        <BooleanAttribute Name="SetPoint" SystemDefined="true">false</BooleanAttribute>
+      </AttributeList>
+      <Sections>
+        <Section Name="Input">
+          <Member Name="IN1" Datatype="Bool" />
+          <Member Name="IN2" Datatype="Bool" />
+          <Member Name="QBAD_IN1" Datatype="Bool" />
+          <Member Name="QBAD_IN2" Datatype="Bool" />
+          <Member Name="OPEN_NEC" Datatype="Bool" />
+          <Member Name="ACK_NEC" Datatype="Bool" />
+          <Member Name="ACK" Datatype="Bool" />
+        </Section>
+        <Section Name="Output">
+          <Member Name="Q" Datatype="Bool" />
+          <Member Name="ACK_REQ" Datatype="Bool" />
+          <Member Name="DIAG" Datatype="Byte" />
+        </Section>
+        <Section Name="InOut" />
+        <Section Name="Static" />
+      </Sections>
+    </Member>
+    <Member Name="KeyControl" Datatype="SFDOOR" Version="1.3" Accessibility="Public">
+      <AttributeList>
+        <BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute>
+        <BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute>
+        <BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute>
+        <BooleanAttribute Name="SetPoint" SystemDefined="true">false</BooleanAttribute>
+      </AttributeList>
+      <Sections>
+        <Section Name="Input">
+          <Member Name="IN1" Datatype="Bool" />
+          <Member Name="IN2" Datatype="Bool" />
+          <Member Name="QBAD_IN1" Datatype="Bool" />
+          <Member Name="QBAD_IN2" Datatype="Bool" />
+          <Member Name="OPEN_NEC" Datatype="Bool" />
+          <Member Name="ACK_NEC" Datatype="Bool" />
+          <Member Name="ACK" Datatype="Bool" />
+        </Section>
+        <Section Name="Output">
+          <Member Name="Q" Datatype="Bool" />
+          <Member Name="ACK_REQ" Datatype="Bool" />
+          <Member Name="DIAG" Datatype="Byte" />
+        </Section>
+        <Section Name="InOut" />
+        <Section Name="Static" />
+      </Sections>
+    </Member>
+  </Section>
+  <Section Name="Temp" />
+  <Section Name="Constant" />
+</Sections></Interface>
+      <IsIECCheckEnabled>false</IsIECCheckEnabled>
+      <MemoryLayout>Optimized</MemoryLayout>
+      <Name>FS_Room2</Name>
+      <Namespace />
+      <Number>3</Number>
+      <ProgrammingLanguage>F_LAD</ProgrammingLanguage>
+      <UDABlockProperties />
+      <UDAEnableTagReadback>false</UDAEnableTagReadback>
+    </AttributeList>
+    <ObjectList>
+      <MultilingualText ID="1" CompositionName="Comment">
+        <ObjectList>
+          <MultilingualTextItem ID="2" CompositionName="Items">
+            <AttributeList>
+              <Culture>zh-CN</Culture>
+              <Text>
+</Text>
+            </AttributeList>
+          </MultilingualTextItem>
+        </ObjectList>
+      </MultilingualText>
+      <SW.Blocks.CompileUnit ID="3" CompositionName="CompileUnits">
+        <AttributeList>
+          <NetworkSource><FlgNet xmlns="http://www.siemens.com/automation/Openness/SW/NetworkSource/FlgNet/v4">
+  <Parts>
+    <Access Scope="GlobalVariable" UId="21">
+      <Symbol>
+        <Component Name="Room2_ES1" />
+      </Symbol>
+    </Access>
+    <Access Scope="LocalVariable" UId="22">
+      <Symbol>
+        <Component Name="ACK" />
+      </Symbol>
+    </Access>
+    <Part Name="ESTOP1" Version="1.6" UId="23">
+      <Instance Scope="LocalVariable" UId="24">
+        <Component Name="EStop1" />
+      </Instance>
+      <TemplateValue Name="f_user_card" Type="Cardinality">1</TemplateValue>
+      <TemplateValue Name="f_image_card" Type="Cardinality">0</TemplateValue>
+    </Part>
+  </Parts>
+  <Wires>
+    <Wire UId="31">
+      <Powerrail />
+      <NameCon UId="23" Name="en" />
+    </Wire>
+    <Wire UId="32">
+      <IdentCon UId="21" />
+      <NameCon UId="23" Name="E_STOP" />
+    </Wire>
+    <Wire UId="33">
+      <OpenCon UId="25" />
+      <NameCon UId="23" Name="ACK_NEC" />
+    </Wire>
+    <Wire UId="34">
+      <IdentCon UId="22" />
+      <NameCon UId="23" Name="ACK" />
+    </Wire>
+    <Wire UId="35">
+      <OpenCon UId="26" />
+      <NameCon UId="23" Name="TIME_DEL" />
+    </Wire>
+    <Wire UId="36">
+      <NameCon UId="23" Name="Q" />
+      <OpenCon UId="27" />
+    </Wire>
+    <Wire UId="37">
+      <NameCon UId="23" Name="Q_DELAY" />
+      <OpenCon UId="28" />
+    </Wire>
+    <Wire UId="38">
+      <NameCon UId="23" Name="ACK_REQ" />
+      <OpenCon UId="29" />
+    </Wire>
+    <Wire UId="39">
+      <NameCon UId="23" Name="DIAG" />
+      <OpenCon UId="30" />
+    </Wire>
+  </Wires>
+</FlgNet></NetworkSource>
+          <ProgrammingLanguage>F_LAD</ProgrammingLanguage>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="4" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="5" CompositionName="Items">
+                <AttributeList>
+                  <Culture>zh-CN</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+          <MultilingualText ID="6" CompositionName="Title">
+            <ObjectList>
+              <MultilingualTextItem ID="7" CompositionName="Items">
+                <AttributeList>
+                  <Culture>zh-CN</Culture>
+                  <Text>E-Stop1</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Blocks.CompileUnit>
+      <SW.Blocks.CompileUnit ID="8" CompositionName="CompileUnits">
+        <AttributeList>
+          <NetworkSource><FlgNet xmlns="http://www.siemens.com/automation/Openness/SW/NetworkSource/FlgNet/v4">
+  <Parts>
+    <Access Scope="GlobalVariable" UId="21">
+      <Symbol>
+        <Component Name="Room2_ES2" />
+      </Symbol>
+    </Access>
+    <Access Scope="LocalVariable" UId="22">
+      <Symbol>
+        <Component Name="ACK" />
+      </Symbol>
+    </Access>
+    <Part Name="ESTOP1" Version="1.6" UId="23">
+      <Instance Scope="LocalVariable" UId="24">
+        <Component Name="EStop2" />
+      </Instance>
+      <TemplateValue Name="f_user_card" Type="Cardinality">1</TemplateValue>
+      <TemplateValue Name="f_image_card" Type="Cardinality">0</TemplateValue>
+    </Part>
+  </Parts>
+  <Wires>
+    <Wire UId="31">
+      <Powerrail />
+      <NameCon UId="23" Name="en" />
+    </Wire>
+    <Wire UId="32">
+      <IdentCon UId="21" />
+      <NameCon UId="23" Name="E_STOP" />
+    </Wire>
+    <Wire UId="33">
+      <OpenCon UId="25" />
+      <NameCon UId="23" Name="ACK_NEC" />
+    </Wire>
+    <Wire UId="34">
+      <IdentCon UId="22" />
+      <NameCon UId="23" Name="ACK" />
+    </Wire>
+    <Wire UId="35">
+      <OpenCon UId="26" />
+      <NameCon UId="23" Name="TIME_DEL" />
+    </Wire>
+    <Wire UId="36">
+      <NameCon UId="23" Name="Q" />
+      <OpenCon UId="27" />
+    </Wire>
+    <Wire UId="37">
+      <NameCon UId="23" Name="Q_DELAY" />
+      <OpenCon UId="28" />
+    </Wire>
+    <Wire UId="38">
+      <NameCon UId="23" Name="ACK_REQ" />
+      <OpenCon UId="29" />
+    </Wire>
+    <Wire UId="39">
+      <NameCon UId="23" Name="DIAG" />
+      <OpenCon UId="30" />
+    </Wire>
+  </Wires>
+</FlgNet></NetworkSource>
+          <ProgrammingLanguage>F_LAD</ProgrammingLanguage>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="9" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="A" CompositionName="Items">
+                <AttributeList>
+                  <Culture>zh-CN</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+          <MultilingualText ID="B" CompositionName="Title">
+            <ObjectList>
+              <MultilingualTextItem ID="C" CompositionName="Items">
+                <AttributeList>
+                  <Culture>zh-CN</Culture>
+                  <Text>E-Stop2</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Blocks.CompileUnit>
+      <SW.Blocks.CompileUnit ID="D" CompositionName="CompileUnits">
+        <AttributeList>
+          <NetworkSource><FlgNet xmlns="http://www.siemens.com/automation/Openness/SW/NetworkSource/FlgNet/v4">
+  <Parts>
+    <Access Scope="GlobalVariable" UId="21">
+      <Symbol>
+        <Component Name="Room2_ES3" />
+      </Symbol>
+    </Access>
+    <Access Scope="LocalVariable" UId="22">
+      <Symbol>
+        <Component Name="ACK" />
+      </Symbol>
+    </Access>
+    <Part Name="ESTOP1" Version="1.6" UId="23">
+      <Instance Scope="LocalVariable" UId="24">
+        <Component Name="EStop3" />
+      </Instance>
+      <TemplateValue Name="f_user_card" Type="Cardinality">1</TemplateValue>
+      <TemplateValue Name="f_image_card" Type="Cardinality">0</TemplateValue>
+    </Part>
+  </Parts>
+  <Wires>
+    <Wire UId="31">
+      <Powerrail />
+      <NameCon UId="23" Name="en" />
+    </Wire>
+    <Wire UId="32">
+      <IdentCon UId="21" />
+      <NameCon UId="23" Name="E_STOP" />
+    </Wire>
+    <Wire UId="33">
+      <OpenCon UId="25" />
+      <NameCon UId="23" Name="ACK_NEC" />
+    </Wire>
+    <Wire UId="34">
+      <IdentCon UId="22" />
+      <NameCon UId="23" Name="ACK" />
+    </Wire>
+    <Wire UId="35">
+      <OpenCon UId="26" />
+      <NameCon UId="23" Name="TIME_DEL" />
+    </Wire>
+    <Wire UId="36">
+      <NameCon UId="23" Name="Q" />
+      <OpenCon UId="27" />
+    </Wire>
+    <Wire UId="37">
+      <NameCon UId="23" Name="Q_DELAY" />
+      <OpenCon UId="28" />
+    </Wire>
+    <Wire UId="38">
+      <NameCon UId="23" Name="ACK_REQ" />
+      <OpenCon UId="29" />
+    </Wire>
+    <Wire UId="39">
+      <NameCon UId="23" Name="DIAG" />
+      <OpenCon UId="30" />
+    </Wire>
+  </Wires>
+</FlgNet></NetworkSource>
+          <ProgrammingLanguage>F_LAD</ProgrammingLanguage>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="E" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="F" CompositionName="Items">
+                <AttributeList>
+                  <Culture>zh-CN</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+          <MultilingualText ID="10" CompositionName="Title">
+            <ObjectList>
+              <MultilingualTextItem ID="11" CompositionName="Items">
+                <AttributeList>
+                  <Culture>zh-CN</Culture>
+                  <Text>E-Stop3</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Blocks.CompileUnit>
+      <SW.Blocks.CompileUnit ID="12" CompositionName="CompileUnits">
+        <AttributeList>
+          <NetworkSource><FlgNet xmlns="http://www.siemens.com/automation/Openness/SW/NetworkSource/FlgNet/v4">
+  <Parts>
+    <Access Scope="GlobalVariable" UId="21">
+      <Symbol>
+        <Component Name="Room2_ES4" />
+      </Symbol>
+    </Access>
+    <Access Scope="LocalVariable" UId="22">
+      <Symbol>
+        <Component Name="ACK" />
+      </Symbol>
+    </Access>
+    <Part Name="ESTOP1" Version="1.6" UId="23">
+      <Instance Scope="LocalVariable" UId="24">
+        <Component Name="EStop4" />
+      </Instance>
+      <TemplateValue Name="f_user_card" Type="Cardinality">1</TemplateValue>
+      <TemplateValue Name="f_image_card" Type="Cardinality">0</TemplateValue>
+    </Part>
+  </Parts>
+  <Wires>
+    <Wire UId="31">
+      <Powerrail />
+      <NameCon UId="23" Name="en" />
+    </Wire>
+    <Wire UId="32">
+      <IdentCon UId="21" />
+      <NameCon UId="23" Name="E_STOP" />
+    </Wire>
+    <Wire UId="33">
+      <OpenCon UId="25" />
+      <NameCon UId="23" Name="ACK_NEC" />
+    </Wire>
+    <Wire UId="34">
+      <IdentCon UId="22" />
+      <NameCon UId="23" Name="ACK" />
+    </Wire>
+    <Wire UId="35">
+      <OpenCon UId="26" />
+      <NameCon UId="23" Name="TIME_DEL" />
+    </Wire>
+    <Wire UId="36">
+      <NameCon UId="23" Name="Q" />
+      <OpenCon UId="27" />
+    </Wire>
+    <Wire UId="37">
+      <NameCon UId="23" Name="Q_DELAY" />
+      <OpenCon UId="28" />
+    </Wire>
+    <Wire UId="38">
+      <NameCon UId="23" Name="ACK_REQ" />
+      <OpenCon UId="29" />
+    </Wire>
+    <Wire UId="39">
+      <NameCon UId="23" Name="DIAG" />
+      <OpenCon UId="30" />
+    </Wire>
+  </Wires>
+</FlgNet></NetworkSource>
+          <ProgrammingLanguage>F_LAD</ProgrammingLanguage>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="13" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="14" CompositionName="Items">
+                <AttributeList>
+                  <Culture>zh-CN</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+          <MultilingualText ID="15" CompositionName="Title">
+            <ObjectList>
+              <MultilingualTextItem ID="16" CompositionName="Items">
+                <AttributeList>
+                  <Culture>zh-CN</Culture>
+                  <Text>E-Stop4</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Blocks.CompileUnit>
+      <SW.Blocks.CompileUnit ID="17" CompositionName="CompileUnits">
+        <AttributeList>
+          <NetworkSource><FlgNet xmlns="http://www.siemens.com/automation/Openness/SW/NetworkSource/FlgNet/v4">
+  <Parts>
+    <Access Scope="GlobalVariable" UId="21">
+      <Symbol>
+        <Component Name="Room2_ES5" />
+      </Symbol>
+    </Access>
+    <Access Scope="LocalVariable" UId="22">
+      <Symbol>
+        <Component Name="ACK" />
+      </Symbol>
+    </Access>
+    <Part Name="ESTOP1" Version="1.6" UId="23">
+      <Instance Scope="LocalVariable" UId="24">
+        <Component Name="EStop5" />
+      </Instance>
+      <TemplateValue Name="f_user_card" Type="Cardinality">1</TemplateValue>
+      <TemplateValue Name="f_image_card" Type="Cardinality">0</TemplateValue>
+    </Part>
+  </Parts>
+  <Wires>
+    <Wire UId="31">
+      <Powerrail />
+      <NameCon UId="23" Name="en" />
+    </Wire>
+    <Wire UId="32">
+      <IdentCon UId="21" />
+      <NameCon UId="23" Name="E_STOP" />
+    </Wire>
+    <Wire UId="33">
+      <OpenCon UId="25" />
+      <NameCon UId="23" Name="ACK_NEC" />
+    </Wire>
+    <Wire UId="34">
+      <IdentCon UId="22" />
+      <NameCon UId="23" Name="ACK" />
+    </Wire>
+    <Wire UId="35">
+      <OpenCon UId="26" />
+      <NameCon UId="23" Name="TIME_DEL" />
+    </Wire>
+    <Wire UId="36">
+      <NameCon UId="23" Name="Q" />
+      <OpenCon UId="27" />
+    </Wire>
+    <Wire UId="37">
+      <NameCon UId="23" Name="Q_DELAY" />
+      <OpenCon UId="28" />
+    </Wire>
+    <Wire UId="38">
+      <NameCon UId="23" Name="ACK_REQ" />
+      <OpenCon UId="29" />
+    </Wire>
+    <Wire UId="39">
+      <NameCon UId="23" Name="DIAG" />
+      <OpenCon UId="30" />
+    </Wire>
+  </Wires>
+</FlgNet></NetworkSource>
+          <ProgrammingLanguage>F_LAD</ProgrammingLanguage>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="18" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="19" CompositionName="Items">
+                <AttributeList>
+                  <Culture>zh-CN</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+          <MultilingualText ID="1A" CompositionName="Title">
+            <ObjectList>
+              <MultilingualTextItem ID="1B" CompositionName="Items">
+                <AttributeList>
+                  <Culture>zh-CN</Culture>
+                  <Text>E-Stop5</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Blocks.CompileUnit>
+      <SW.Blocks.CompileUnit ID="1C" CompositionName="CompileUnits">
+        <AttributeList>
+          <NetworkSource><FlgNet xmlns="http://www.siemens.com/automation/Openness/SW/NetworkSource/FlgNet/v4">
+  <Parts>
+    <Access Scope="GlobalVariable" UId="21">
+      <Symbol>
+        <Component Name="Room2Control_ES6" />
+      </Symbol>
+    </Access>
+    <Access Scope="LocalVariable" UId="22">
+      <Symbol>
+        <Component Name="ACK" />
+      </Symbol>
+    </Access>
+    <Part Name="ESTOP1" Version="1.6" UId="23">
+      <Instance Scope="LocalVariable" UId="24">
+        <Component Name="EStop6" />
+      </Instance>
+      <TemplateValue Name="f_user_card" Type="Cardinality">1</TemplateValue>
+      <TemplateValue Name="f_image_card" Type="Cardinality">0</TemplateValue>
+    </Part>
+  </Parts>
+  <Wires>
+    <Wire UId="31">
+      <Powerrail />
+      <NameCon UId="23" Name="en" />
+    </Wire>
+    <Wire UId="32">
+      <IdentCon UId="21" />
+      <NameCon UId="23" Name="E_STOP" />
+    </Wire>
+    <Wire UId="33">
+      <OpenCon UId="25" />
+      <NameCon UId="23" Name="ACK_NEC" />
+    </Wire>
+    <Wire UId="34">
+      <IdentCon UId="22" />
+      <NameCon UId="23" Name="ACK" />
+    </Wire>
+    <Wire UId="35">
+      <OpenCon UId="26" />
+      <NameCon UId="23" Name="TIME_DEL" />
+    </Wire>
+    <Wire UId="36">
+      <NameCon UId="23" Name="Q" />
+      <OpenCon UId="27" />
+    </Wire>
+    <Wire UId="37">
+      <NameCon UId="23" Name="Q_DELAY" />
+      <OpenCon UId="28" />
+    </Wire>
+    <Wire UId="38">
+      <NameCon UId="23" Name="ACK_REQ" />
+      <OpenCon UId="29" />
+    </Wire>
+    <Wire UId="39">
+      <NameCon UId="23" Name="DIAG" />
+      <OpenCon UId="30" />
+    </Wire>
+  </Wires>
+</FlgNet></NetworkSource>
+          <ProgrammingLanguage>F_LAD</ProgrammingLanguage>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="1D" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="1E" CompositionName="Items">
+                <AttributeList>
+                  <Culture>zh-CN</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+          <MultilingualText ID="1F" CompositionName="Title">
+            <ObjectList>
+              <MultilingualTextItem ID="20" CompositionName="Items">
+                <AttributeList>
+                  <Culture>zh-CN</Culture>
+                  <Text>E-Stop6</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Blocks.CompileUnit>
+      <SW.Blocks.CompileUnit ID="21" CompositionName="CompileUnits">
+        <AttributeList>
+          <NetworkSource><FlgNet xmlns="http://www.siemens.com/automation/Openness/SW/NetworkSource/FlgNet/v4">
+  <Parts>
+    <Access Scope="LocalVariable" UId="21">
+      <Symbol>
+        <Component Name="EStop1" />
+        <Component Name="Q" />
+      </Symbol>
+    </Access>
+    <Access Scope="LocalVariable" UId="22">
+      <Symbol>
+        <Component Name="EStop2" />
+        <Component Name="Q" />
+      </Symbol>
+    </Access>
+    <Access Scope="LocalVariable" UId="23">
+      <Symbol>
+        <Component Name="EStop3" />
+        <Component Name="Q" />
+      </Symbol>
+    </Access>
+    <Access Scope="LocalVariable" UId="24">
+      <Symbol>
+        <Component Name="EStop4" />
+        <Component Name="Q" />
+      </Symbol>
+    </Access>
+    <Access Scope="LocalVariable" UId="25">
+      <Symbol>
+        <Component Name="EStop5" />
+        <Component Name="Q" />
+      </Symbol>
+    </Access>
+    <Access Scope="LocalVariable" UId="26">
+      <Symbol>
+        <Component Name="EStop6" />
+        <Component Name="Q" />
+      </Symbol>
+    </Access>
+    <Access Scope="LocalVariable" UId="27">
+      <Symbol>
+        <Component Name="ES_OK" />
+      </Symbol>
+    </Access>
+    <Part Name="Contact" UId="28" />
+    <Part Name="Contact" UId="29" />
+    <Part Name="Contact" UId="30" />
+    <Part Name="Contact" UId="31" />
+    <Part Name="Contact" UId="32" />
+    <Part Name="Contact" UId="33" />
+    <Part Name="Coil" UId="34" />
+  </Parts>
+  <Wires>
+    <Wire UId="35">
+      <Powerrail />
+      <NameCon UId="28" Name="in" />
+    </Wire>
+    <Wire UId="36">
+      <IdentCon UId="21" />
+      <NameCon UId="28" Name="operand" />
+    </Wire>
+    <Wire UId="37">
+      <NameCon UId="28" Name="out" />
+      <NameCon UId="29" Name="in" />
+    </Wire>
+    <Wire UId="38">
+      <IdentCon UId="22" />
+      <NameCon UId="29" Name="operand" />
+    </Wire>
+    <Wire UId="39">
+      <NameCon UId="29" Name="out" />
+      <NameCon UId="30" Name="in" />
+    </Wire>
+    <Wire UId="40">
+      <IdentCon UId="23" />
+      <NameCon UId="30" Name="operand" />
+    </Wire>
+    <Wire UId="41">
+      <NameCon UId="30" Name="out" />
+      <NameCon UId="31" Name="in" />
+    </Wire>
+    <Wire UId="42">
+      <IdentCon UId="24" />
+      <NameCon UId="31" Name="operand" />
+    </Wire>
+    <Wire UId="43">
+      <NameCon UId="31" Name="out" />
+      <NameCon UId="32" Name="in" />
+    </Wire>
+    <Wire UId="44">
+      <IdentCon UId="25" />
+      <NameCon UId="32" Name="operand" />
+    </Wire>
+    <Wire UId="45">
+      <NameCon UId="32" Name="out" />
+      <NameCon UId="33" Name="in" />
+    </Wire>
+    <Wire UId="46">
+      <IdentCon UId="26" />
+      <NameCon UId="33" Name="operand" />
+    </Wire>
+    <Wire UId="47">
+      <NameCon UId="33" Name="out" />
+      <NameCon UId="34" Name="in" />
+    </Wire>
+    <Wire UId="48">
+      <IdentCon UId="27" />
+      <NameCon UId="34" Name="operand" />
+    </Wire>
+  </Wires>
+</FlgNet></NetworkSource>
+          <ProgrammingLanguage>F_LAD</ProgrammingLanguage>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="22" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="23" CompositionName="Items">
+                <AttributeList>
+                  <Culture>zh-CN</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+          <MultilingualText ID="24" CompositionName="Title">
+            <ObjectList>
+              <MultilingualTextItem ID="25" CompositionName="Items">
+                <AttributeList>
+                  <Culture>zh-CN</Culture>
+                  <Text>E-Stop OK</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Blocks.CompileUnit>
+      <SW.Blocks.CompileUnit ID="26" CompositionName="CompileUnits">
+        <AttributeList>
+          <NetworkSource><FlgNet xmlns="http://www.siemens.com/automation/Openness/SW/NetworkSource/FlgNet/v4">
+  <Parts>
+    <Access Scope="GlobalVariable" UId="21">
+      <Symbol>
+        <Component Name="Room2_door1.1" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="22">
+      <Symbol>
+        <Component Name="Room2_door1.2" />
+      </Symbol>
+    </Access>
+    <Access Scope="LiteralConstant" UId="23">
+      <Constant>
+        <ConstantType>Bool</ConstantType>
+        <ConstantValue>false</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="LiteralConstant" UId="24">
+      <Constant>
+        <ConstantType>Bool</ConstantType>
+        <ConstantValue>false</ConstantValue>
+      </Constant>
+    </Access>
+    <Part Name="SFDOOR" Version="1.3" UId="25">
+      <Instance Scope="LocalVariable" UId="26">
+        <Component Name="door" />
+      </Instance>
+      <TemplateValue Name="f_user_card" Type="Cardinality">1</TemplateValue>
+      <TemplateValue Name="f_image_card" Type="Cardinality">0</TemplateValue>
+    </Part>
+  </Parts>
+  <Wires>
+    <Wire UId="33">
+      <Powerrail />
+      <NameCon UId="25" Name="en" />
+    </Wire>
+    <Wire UId="34">
+      <IdentCon UId="21" />
+      <NameCon UId="25" Name="IN1" />
+    </Wire>
+    <Wire UId="35">
+      <IdentCon UId="22" />
+      <NameCon UId="25" Name="IN2" />
+    </Wire>
+    <Wire UId="36">
+      <OpenCon UId="27" />
+      <NameCon UId="25" Name="QBAD_IN1" />
+    </Wire>
+    <Wire UId="37">
+      <OpenCon UId="28" />
+      <NameCon UId="25" Name="QBAD_IN2" />
+    </Wire>
+    <Wire UId="38">
+      <IdentCon UId="23" />
+      <NameCon UId="25" Name="OPEN_NEC" />
+    </Wire>
+    <Wire UId="39">
+      <IdentCon UId="24" />
+      <NameCon UId="25" Name="ACK_NEC" />
+    </Wire>
+    <Wire UId="40">
+      <OpenCon UId="29" />
+      <NameCon UId="25" Name="ACK" />
+    </Wire>
+    <Wire UId="41">
+      <NameCon UId="25" Name="Q" />
+      <OpenCon UId="30" />
+    </Wire>
+    <Wire UId="42">
+      <NameCon UId="25" Name="ACK_REQ" />
+      <OpenCon UId="31" />
+    </Wire>
+    <Wire UId="43">
+      <NameCon UId="25" Name="DIAG" />
+      <OpenCon UId="32" />
+    </Wire>
+  </Wires>
+</FlgNet></NetworkSource>
+          <ProgrammingLanguage>F_LAD</ProgrammingLanguage>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="27" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="28" CompositionName="Items">
+                <AttributeList>
+                  <Culture>zh-CN</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+          <MultilingualText ID="29" CompositionName="Title">
+            <ObjectList>
+              <MultilingualTextItem ID="2A" CompositionName="Items">
+                <AttributeList>
+                  <Culture>zh-CN</Culture>
+                  <Text>door</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Blocks.CompileUnit>
+      <SW.Blocks.CompileUnit ID="2B" CompositionName="CompileUnits">
+        <AttributeList>
+          <NetworkSource><FlgNet xmlns="http://www.siemens.com/automation/Openness/SW/NetworkSource/FlgNet/v4">
+  <Parts>
+    <Access Scope="GlobalVariable" UId="21">
+      <Symbol>
+        <Component Name="Room2_Key1.2" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="22">
+      <Symbol>
+        <Component Name="Room2_Key1.1" />
+      </Symbol>
+    </Access>
+    <Access Scope="LiteralConstant" UId="23">
+      <Constant>
+        <ConstantType>Bool</ConstantType>
+        <ConstantValue>false</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="LiteralConstant" UId="24">
+      <Constant>
+        <ConstantType>Bool</ConstantType>
+        <ConstantValue>false</ConstantValue>
+      </Constant>
+    </Access>
+    <Part Name="Contact" UId="25">
+      <Negated Name="operand" />
+    </Part>
+    <Part Name="SFDOOR" Version="1.3" UId="26">
+      <Instance Scope="LocalVariable" UId="27">
+        <Component Name="Key" />
+      </Instance>
+      <TemplateValue Name="f_user_card" Type="Cardinality">1</TemplateValue>
+      <TemplateValue Name="f_image_card" Type="Cardinality">0</TemplateValue>
+    </Part>
+  </Parts>
+  <Wires>
+    <Wire UId="34">
+      <Powerrail />
+      <NameCon UId="26" Name="en" />
+      <NameCon UId="25" Name="in" />
+    </Wire>
+    <Wire UId="35">
+      <IdentCon UId="21" />
+      <NameCon UId="25" Name="operand" />
+    </Wire>
+    <Wire UId="36">
+      <NameCon UId="25" Name="out" />
+      <NameCon UId="26" Name="IN2" />
+    </Wire>
+    <Wire UId="37">
+      <IdentCon UId="22" />
+      <NameCon UId="26" Name="IN1" />
+    </Wire>
+    <Wire UId="38">
+      <OpenCon UId="28" />
+      <NameCon UId="26" Name="QBAD_IN1" />
+    </Wire>
+    <Wire UId="39">
+      <OpenCon UId="29" />
+      <NameCon UId="26" Name="QBAD_IN2" />
+    </Wire>
+    <Wire UId="40">
+      <IdentCon UId="23" />
+      <NameCon UId="26" Name="OPEN_NEC" />
+    </Wire>
+    <Wire UId="41">
+      <IdentCon UId="24" />
+      <NameCon UId="26" Name="ACK_NEC" />
+    </Wire>
+    <Wire UId="42">
+      <OpenCon UId="30" />
+      <NameCon UId="26" Name="ACK" />
+    </Wire>
+    <Wire UId="43">
+      <NameCon UId="26" Name="Q" />
+      <OpenCon UId="31" />
+    </Wire>
+    <Wire UId="44">
+      <NameCon UId="26" Name="ACK_REQ" />
+      <OpenCon UId="32" />
+    </Wire>
+    <Wire UId="45">
+      <NameCon UId="26" Name="DIAG" />
+      <OpenCon UId="33" />
+    </Wire>
+  </Wires>
+</FlgNet></NetworkSource>
+          <ProgrammingLanguage>F_LAD</ProgrammingLanguage>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="2C" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="2D" CompositionName="Items">
+                <AttributeList>
+                  <Culture>zh-CN</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+          <MultilingualText ID="2E" CompositionName="Title">
+            <ObjectList>
+              <MultilingualTextItem ID="2F" CompositionName="Items">
+                <AttributeList>
+                  <Culture>zh-CN</Culture>
+                  <Text>Key</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Blocks.CompileUnit>
+      <SW.Blocks.CompileUnit ID="30" CompositionName="CompileUnits">
+        <AttributeList>
+          <NetworkSource><FlgNet xmlns="http://www.siemens.com/automation/Openness/SW/NetworkSource/FlgNet/v4">
+  <Parts>
+    <Access Scope="GlobalVariable" UId="21">
+      <Symbol>
+        <Component Name="Room2Control_Key1.2" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="22">
+      <Symbol>
+        <Component Name="Room2Control_Key1.1" />
+      </Symbol>
+    </Access>
+    <Access Scope="LiteralConstant" UId="23">
+      <Constant>
+        <ConstantType>Bool</ConstantType>
+        <ConstantValue>false</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="LiteralConstant" UId="24">
+      <Constant>
+        <ConstantType>Bool</ConstantType>
+        <ConstantValue>false</ConstantValue>
+      </Constant>
+    </Access>
+    <Part Name="Contact" UId="25">
+      <Negated Name="operand" />
+    </Part>
+    <Part Name="SFDOOR" Version="1.3" UId="26">
+      <Instance Scope="LocalVariable" UId="27">
+        <Component Name="KeyControl" />
+      </Instance>
+      <TemplateValue Name="f_user_card" Type="Cardinality">1</TemplateValue>
+      <TemplateValue Name="f_image_card" Type="Cardinality">0</TemplateValue>
+    </Part>
+  </Parts>
+  <Wires>
+    <Wire UId="34">
+      <Powerrail />
+      <NameCon UId="26" Name="en" />
+      <NameCon UId="25" Name="in" />
+    </Wire>
+    <Wire UId="35">
+      <IdentCon UId="21" />
+      <NameCon UId="25" Name="operand" />
+    </Wire>
+    <Wire UId="36">
+      <NameCon UId="25" Name="out" />
+      <NameCon UId="26" Name="IN2" />
+    </Wire>
+    <Wire UId="37">
+      <IdentCon UId="22" />
+      <NameCon UId="26" Name="IN1" />
+    </Wire>
+    <Wire UId="38">
+      <OpenCon UId="28" />
+      <NameCon UId="26" Name="QBAD_IN1" />
+    </Wire>
+    <Wire UId="39">
+      <OpenCon UId="29" />
+      <NameCon UId="26" Name="QBAD_IN2" />
+    </Wire>
+    <Wire UId="40">
+      <IdentCon UId="23" />
+      <NameCon UId="26" Name="OPEN_NEC" />
+    </Wire>
+    <Wire UId="41">
+      <IdentCon UId="24" />
+      <NameCon UId="26" Name="ACK_NEC" />
+    </Wire>
+    <Wire UId="42">
+      <OpenCon UId="30" />
+      <NameCon UId="26" Name="ACK" />
+    </Wire>
+    <Wire UId="43">
+      <NameCon UId="26" Name="Q" />
+      <OpenCon UId="31" />
+    </Wire>
+    <Wire UId="44">
+      <NameCon UId="26" Name="ACK_REQ" />
+      <OpenCon UId="32" />
+    </Wire>
+    <Wire UId="45">
+      <NameCon UId="26" Name="DIAG" />
+      <OpenCon UId="33" />
+    </Wire>
+  </Wires>
+</FlgNet></NetworkSource>
+          <ProgrammingLanguage>F_LAD</ProgrammingLanguage>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="31" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="32" CompositionName="Items">
+                <AttributeList>
+                  <Culture>zh-CN</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+          <MultilingualText ID="33" CompositionName="Title">
+            <ObjectList>
+              <MultilingualTextItem ID="34" CompositionName="Items">
+                <AttributeList>
+                  <Culture>zh-CN</Culture>
+                  <Text>Key</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Blocks.CompileUnit>
+      <SW.Blocks.CompileUnit ID="35" CompositionName="CompileUnits">
+        <AttributeList>
+          <NetworkSource />
+          <ProgrammingLanguage>F_LAD</ProgrammingLanguage>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="36" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="37" CompositionName="Items">
+                <AttributeList>
+                  <Culture>zh-CN</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+          <MultilingualText ID="38" CompositionName="Title">
+            <ObjectList>
+              <MultilingualTextItem ID="39" CompositionName="Items">
+                <AttributeList>
+                  <Culture>zh-CN</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Blocks.CompileUnit>
+      <MultilingualText ID="3A" CompositionName="Title">
+        <ObjectList>
+          <MultilingualTextItem ID="3B" CompositionName="Items">
+            <AttributeList>
+              <Culture>zh-CN</Culture>
+              <Text />
+            </AttributeList>
+          </MultilingualTextItem>
+        </ObjectList>
+      </MultilingualText>
+    </ObjectList>
+  </SW.Blocks.FB>
+</Document>

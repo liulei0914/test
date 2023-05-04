@@ -1,0 +1,399 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Document>
+  <Engineering version="V18" />
+  <SW.Blocks.GlobalDB ID="0">
+    <AttributeList>
+      <AutoNumber>true</AutoNumber>
+      <DBAccessibleFromOPCUA>true</DBAccessibleFromOPCUA>
+      <HeaderAuthor />
+      <HeaderFamily />
+      <HeaderName />
+      <HeaderVersion>0.1</HeaderVersion>
+      <Interface><Sections xmlns="http://www.siemens.com/automation/Openness/SW/Interface/v5">
+  <Section Name="Static">
+    <Member Name="F-DI_A21_1" Datatype="&quot;FIODia&quot;" Remanence="NonRetain" Accessibility="Public">
+      <AttributeList>
+        <BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute>
+        <BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute>
+        <BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute>
+        <BooleanAttribute Name="SetPoint" SystemDefined="true">false</BooleanAttribute>
+      </AttributeList>
+      <Comment>
+        <MultiLanguageText Lang="zh-CN">安全输入模块A21.1</MultiLanguageText>
+      </Comment>
+      <Sections>
+        <Section Name="None">
+          <Member Name="ModulePassOut" Datatype="Bool" />
+          <Member Name="ModuleACK_REQ" Datatype="Bool" />
+          <Member Name="Channel0PassOut" Datatype="Bool" />
+          <Member Name="Channel1PassOut" Datatype="Bool" />
+          <Member Name="Channel2PassOut" Datatype="Bool" />
+          <Member Name="Channel3PassOut" Datatype="Bool" />
+          <Member Name="Channel4PassOut" Datatype="Bool" />
+          <Member Name="Channel5PassOut" Datatype="Bool" />
+          <Member Name="Channel6PassOut" Datatype="Bool" />
+          <Member Name="Channel7PassOut" Datatype="Bool" />
+        </Section>
+      </Sections>
+    </Member>
+    <Member Name="F-DI_A21_2" Datatype="&quot;FIODia&quot;" Remanence="NonRetain" Accessibility="Public">
+      <AttributeList>
+        <BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute>
+        <BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute>
+        <BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute>
+        <BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute>
+      </AttributeList>
+      <Comment>
+        <MultiLanguageText Lang="zh-CN">安全输入模块A21.2</MultiLanguageText>
+      </Comment>
+      <Sections>
+        <Section Name="None">
+          <Member Name="ModulePassOut" Datatype="Bool" />
+          <Member Name="ModuleACK_REQ" Datatype="Bool" />
+          <Member Name="Channel0PassOut" Datatype="Bool" />
+          <Member Name="Channel1PassOut" Datatype="Bool" />
+          <Member Name="Channel2PassOut" Datatype="Bool" />
+          <Member Name="Channel3PassOut" Datatype="Bool" />
+          <Member Name="Channel4PassOut" Datatype="Bool" />
+          <Member Name="Channel5PassOut" Datatype="Bool" />
+          <Member Name="Channel6PassOut" Datatype="Bool" />
+          <Member Name="Channel7PassOut" Datatype="Bool" />
+        </Section>
+      </Sections>
+    </Member>
+    <Member Name="F-DI_A21_3" Datatype="&quot;FIODia&quot;" Remanence="NonRetain" Accessibility="Public">
+      <AttributeList>
+        <BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute>
+        <BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute>
+        <BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute>
+        <BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute>
+      </AttributeList>
+      <Comment>
+        <MultiLanguageText Lang="zh-CN">安全输入模块A21.3</MultiLanguageText>
+      </Comment>
+      <Sections>
+        <Section Name="None">
+          <Member Name="ModulePassOut" Datatype="Bool" />
+          <Member Name="ModuleACK_REQ" Datatype="Bool" />
+          <Member Name="Channel0PassOut" Datatype="Bool" />
+          <Member Name="Channel1PassOut" Datatype="Bool" />
+          <Member Name="Channel2PassOut" Datatype="Bool" />
+          <Member Name="Channel3PassOut" Datatype="Bool" />
+          <Member Name="Channel4PassOut" Datatype="Bool" />
+          <Member Name="Channel5PassOut" Datatype="Bool" />
+          <Member Name="Channel6PassOut" Datatype="Bool" />
+          <Member Name="Channel7PassOut" Datatype="Bool" />
+        </Section>
+      </Sections>
+    </Member>
+    <Member Name="F-DI_A21_4" Datatype="&quot;FIODia&quot;" Remanence="NonRetain" Accessibility="Public">
+      <AttributeList>
+        <BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute>
+        <BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute>
+        <BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute>
+        <BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute>
+      </AttributeList>
+      <Comment>
+        <MultiLanguageText Lang="zh-CN">安全输入模块A21.4</MultiLanguageText>
+      </Comment>
+      <Sections>
+        <Section Name="None">
+          <Member Name="ModulePassOut" Datatype="Bool" />
+          <Member Name="ModuleACK_REQ" Datatype="Bool" />
+          <Member Name="Channel0PassOut" Datatype="Bool" />
+          <Member Name="Channel1PassOut" Datatype="Bool" />
+          <Member Name="Channel2PassOut" Datatype="Bool" />
+          <Member Name="Channel3PassOut" Datatype="Bool" />
+          <Member Name="Channel4PassOut" Datatype="Bool" />
+          <Member Name="Channel5PassOut" Datatype="Bool" />
+          <Member Name="Channel6PassOut" Datatype="Bool" />
+          <Member Name="Channel7PassOut" Datatype="Bool" />
+        </Section>
+      </Sections>
+    </Member>
+    <Member Name="F-DI_A21_5" Datatype="&quot;FIODia&quot;" Remanence="NonRetain" Accessibility="Public">
+      <AttributeList>
+        <BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute>
+        <BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute>
+        <BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute>
+        <BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute>
+      </AttributeList>
+      <Comment>
+        <MultiLanguageText Lang="zh-CN">安全输入模块A21.5</MultiLanguageText>
+      </Comment>
+      <Sections>
+        <Section Name="None">
+          <Member Name="ModulePassOut" Datatype="Bool" />
+          <Member Name="ModuleACK_REQ" Datatype="Bool" />
+          <Member Name="Channel0PassOut" Datatype="Bool" />
+          <Member Name="Channel1PassOut" Datatype="Bool" />
+          <Member Name="Channel2PassOut" Datatype="Bool" />
+          <Member Name="Channel3PassOut" Datatype="Bool" />
+          <Member Name="Channel4PassOut" Datatype="Bool" />
+          <Member Name="Channel5PassOut" Datatype="Bool" />
+          <Member Name="Channel6PassOut" Datatype="Bool" />
+          <Member Name="Channel7PassOut" Datatype="Bool" />
+        </Section>
+      </Sections>
+    </Member>
+    <Member Name="F-DI_A21_6" Datatype="&quot;FIODia&quot;" Remanence="NonRetain" Accessibility="Public">
+      <AttributeList>
+        <BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute>
+        <BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute>
+        <BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute>
+        <BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute>
+      </AttributeList>
+      <Comment>
+        <MultiLanguageText Lang="zh-CN">安全输入模块A21.6</MultiLanguageText>
+      </Comment>
+      <Sections>
+        <Section Name="None">
+          <Member Name="ModulePassOut" Datatype="Bool" />
+          <Member Name="ModuleACK_REQ" Datatype="Bool" />
+          <Member Name="Channel0PassOut" Datatype="Bool" />
+          <Member Name="Channel1PassOut" Datatype="Bool" />
+          <Member Name="Channel2PassOut" Datatype="Bool" />
+          <Member Name="Channel3PassOut" Datatype="Bool" />
+          <Member Name="Channel4PassOut" Datatype="Bool" />
+          <Member Name="Channel5PassOut" Datatype="Bool" />
+          <Member Name="Channel6PassOut" Datatype="Bool" />
+          <Member Name="Channel7PassOut" Datatype="Bool" />
+        </Section>
+      </Sections>
+    </Member>
+    <Member Name="F-DI_A21_7" Datatype="&quot;FIODia&quot;" Remanence="NonRetain" Accessibility="Public">
+      <AttributeList>
+        <BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute>
+        <BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute>
+        <BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute>
+        <BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute>
+      </AttributeList>
+      <Comment>
+        <MultiLanguageText Lang="zh-CN">安全输入模块A21.7</MultiLanguageText>
+      </Comment>
+      <Sections>
+        <Section Name="None">
+          <Member Name="ModulePassOut" Datatype="Bool" />
+          <Member Name="ModuleACK_REQ" Datatype="Bool" />
+          <Member Name="Channel0PassOut" Datatype="Bool" />
+          <Member Name="Channel1PassOut" Datatype="Bool" />
+          <Member Name="Channel2PassOut" Datatype="Bool" />
+          <Member Name="Channel3PassOut" Datatype="Bool" />
+          <Member Name="Channel4PassOut" Datatype="Bool" />
+          <Member Name="Channel5PassOut" Datatype="Bool" />
+          <Member Name="Channel6PassOut" Datatype="Bool" />
+          <Member Name="Channel7PassOut" Datatype="Bool" />
+        </Section>
+      </Sections>
+    </Member>
+    <Member Name="F-DI_A21_8" Datatype="&quot;FIODia&quot;" Remanence="NonRetain" Accessibility="Public">
+      <AttributeList>
+        <BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute>
+        <BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute>
+        <BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute>
+        <BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute>
+      </AttributeList>
+      <Comment>
+        <MultiLanguageText Lang="zh-CN">安全输入模块A21.8</MultiLanguageText>
+      </Comment>
+      <Sections>
+        <Section Name="None">
+          <Member Name="ModulePassOut" Datatype="Bool" />
+          <Member Name="ModuleACK_REQ" Datatype="Bool" />
+          <Member Name="Channel0PassOut" Datatype="Bool" />
+          <Member Name="Channel1PassOut" Datatype="Bool" />
+          <Member Name="Channel2PassOut" Datatype="Bool" />
+          <Member Name="Channel3PassOut" Datatype="Bool" />
+          <Member Name="Channel4PassOut" Datatype="Bool" />
+          <Member Name="Channel5PassOut" Datatype="Bool" />
+          <Member Name="Channel6PassOut" Datatype="Bool" />
+          <Member Name="Channel7PassOut" Datatype="Bool" />
+        </Section>
+      </Sections>
+    </Member>
+    <Member Name="F-DI_A21_9" Datatype="&quot;FIODia&quot;" Remanence="NonRetain" Accessibility="Public">
+      <AttributeList>
+        <BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute>
+        <BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute>
+        <BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute>
+        <BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute>
+      </AttributeList>
+      <Comment>
+        <MultiLanguageText Lang="zh-CN">安全输入模块A21.9</MultiLanguageText>
+      </Comment>
+      <Sections>
+        <Section Name="None">
+          <Member Name="ModulePassOut" Datatype="Bool" />
+          <Member Name="ModuleACK_REQ" Datatype="Bool" />
+          <Member Name="Channel0PassOut" Datatype="Bool" />
+          <Member Name="Channel1PassOut" Datatype="Bool" />
+          <Member Name="Channel2PassOut" Datatype="Bool" />
+          <Member Name="Channel3PassOut" Datatype="Bool" />
+          <Member Name="Channel4PassOut" Datatype="Bool" />
+          <Member Name="Channel5PassOut" Datatype="Bool" />
+          <Member Name="Channel6PassOut" Datatype="Bool" />
+          <Member Name="Channel7PassOut" Datatype="Bool" />
+        </Section>
+      </Sections>
+    </Member>
+    <Member Name="F-DI_A21_10" Datatype="&quot;FIODia&quot;" Remanence="NonRetain" Accessibility="Public">
+      <AttributeList>
+        <BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute>
+        <BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute>
+        <BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute>
+        <BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute>
+      </AttributeList>
+      <Comment>
+        <MultiLanguageText Lang="zh-CN">安全输入模块A21.10</MultiLanguageText>
+      </Comment>
+      <Sections>
+        <Section Name="None">
+          <Member Name="ModulePassOut" Datatype="Bool" />
+          <Member Name="ModuleACK_REQ" Datatype="Bool" />
+          <Member Name="Channel0PassOut" Datatype="Bool" />
+          <Member Name="Channel1PassOut" Datatype="Bool" />
+          <Member Name="Channel2PassOut" Datatype="Bool" />
+          <Member Name="Channel3PassOut" Datatype="Bool" />
+          <Member Name="Channel4PassOut" Datatype="Bool" />
+          <Member Name="Channel5PassOut" Datatype="Bool" />
+          <Member Name="Channel6PassOut" Datatype="Bool" />
+          <Member Name="Channel7PassOut" Datatype="Bool" />
+        </Section>
+      </Sections>
+    </Member>
+    <Member Name="F-DI_A21_11" Datatype="&quot;FIODia&quot;" Remanence="NonRetain" Accessibility="Public">
+      <AttributeList>
+        <BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute>
+        <BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute>
+        <BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute>
+        <BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute>
+      </AttributeList>
+      <Comment>
+        <MultiLanguageText Lang="zh-CN">安全输入模块A21.11</MultiLanguageText>
+      </Comment>
+      <Sections>
+        <Section Name="None">
+          <Member Name="ModulePassOut" Datatype="Bool" />
+          <Member Name="ModuleACK_REQ" Datatype="Bool" />
+          <Member Name="Channel0PassOut" Datatype="Bool" />
+          <Member Name="Channel1PassOut" Datatype="Bool" />
+          <Member Name="Channel2PassOut" Datatype="Bool" />
+          <Member Name="Channel3PassOut" Datatype="Bool" />
+          <Member Name="Channel4PassOut" Datatype="Bool" />
+          <Member Name="Channel5PassOut" Datatype="Bool" />
+          <Member Name="Channel6PassOut" Datatype="Bool" />
+          <Member Name="Channel7PassOut" Datatype="Bool" />
+        </Section>
+      </Sections>
+    </Member>
+    <Member Name="F-DI_A21_12" Datatype="&quot;FIODia&quot;" Remanence="NonRetain" Accessibility="Public">
+      <AttributeList>
+        <BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute>
+        <BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute>
+        <BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute>
+        <BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute>
+      </AttributeList>
+      <Comment>
+        <MultiLanguageText Lang="zh-CN">安全输入模块A21.12</MultiLanguageText>
+      </Comment>
+      <Sections>
+        <Section Name="None">
+          <Member Name="ModulePassOut" Datatype="Bool" />
+          <Member Name="ModuleACK_REQ" Datatype="Bool" />
+          <Member Name="Channel0PassOut" Datatype="Bool" />
+          <Member Name="Channel1PassOut" Datatype="Bool" />
+          <Member Name="Channel2PassOut" Datatype="Bool" />
+          <Member Name="Channel3PassOut" Datatype="Bool" />
+          <Member Name="Channel4PassOut" Datatype="Bool" />
+          <Member Name="Channel5PassOut" Datatype="Bool" />
+          <Member Name="Channel6PassOut" Datatype="Bool" />
+          <Member Name="Channel7PassOut" Datatype="Bool" />
+        </Section>
+      </Sections>
+    </Member>
+    <Member Name="F-DQ_A21_1" Datatype="&quot;FIODia&quot;" Remanence="NonRetain" Accessibility="Public">
+      <AttributeList>
+        <BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute>
+        <BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute>
+        <BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute>
+        <BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute>
+      </AttributeList>
+      <Comment>
+        <MultiLanguageText Lang="zh-CN">安全输出模块A22.1</MultiLanguageText>
+      </Comment>
+      <Sections>
+        <Section Name="None">
+          <Member Name="ModulePassOut" Datatype="Bool" />
+          <Member Name="ModuleACK_REQ" Datatype="Bool" />
+          <Member Name="Channel0PassOut" Datatype="Bool" />
+          <Member Name="Channel1PassOut" Datatype="Bool" />
+          <Member Name="Channel2PassOut" Datatype="Bool" />
+          <Member Name="Channel3PassOut" Datatype="Bool" />
+          <Member Name="Channel4PassOut" Datatype="Bool" />
+          <Member Name="Channel5PassOut" Datatype="Bool" />
+          <Member Name="Channel6PassOut" Datatype="Bool" />
+          <Member Name="Channel7PassOut" Datatype="Bool" />
+        </Section>
+      </Sections>
+    </Member>
+    <Member Name="F-DQ_A21_2" Datatype="&quot;FIODia&quot;" Remanence="NonRetain" Accessibility="Public">
+      <AttributeList>
+        <BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute>
+        <BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute>
+        <BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute>
+        <BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute>
+      </AttributeList>
+      <Comment>
+        <MultiLanguageText Lang="zh-CN">安全输出模块A22.2</MultiLanguageText>
+      </Comment>
+      <Sections>
+        <Section Name="None">
+          <Member Name="ModulePassOut" Datatype="Bool" />
+          <Member Name="ModuleACK_REQ" Datatype="Bool" />
+          <Member Name="Channel0PassOut" Datatype="Bool" />
+          <Member Name="Channel1PassOut" Datatype="Bool" />
+          <Member Name="Channel2PassOut" Datatype="Bool" />
+          <Member Name="Channel3PassOut" Datatype="Bool" />
+          <Member Name="Channel4PassOut" Datatype="Bool" />
+          <Member Name="Channel5PassOut" Datatype="Bool" />
+          <Member Name="Channel6PassOut" Datatype="Bool" />
+          <Member Name="Channel7PassOut" Datatype="Bool" />
+        </Section>
+      </Sections>
+    </Member>
+  </Section>
+</Sections></Interface>
+      <IsOnlyStoredInLoadMemory>false</IsOnlyStoredInLoadMemory>
+      <IsRetainMemResEnabled>false</IsRetainMemResEnabled>
+      <IsWriteProtectedInAS>false</IsWriteProtectedInAS>
+      <MemoryLayout>Optimized</MemoryLayout>
+      <MemoryReserve>100</MemoryReserve>
+      <Name>数据块_2</Name>
+      <Namespace />
+      <Number>3</Number>
+      <ProgrammingLanguage>DB</ProgrammingLanguage>
+    </AttributeList>
+    <ObjectList>
+      <MultilingualText ID="1" CompositionName="Comment">
+        <ObjectList>
+          <MultilingualTextItem ID="2" CompositionName="Items">
+            <AttributeList>
+              <Culture>zh-CN</Culture>
+              <Text />
+            </AttributeList>
+          </MultilingualTextItem>
+        </ObjectList>
+      </MultilingualText>
+      <MultilingualText ID="3" CompositionName="Title">
+        <ObjectList>
+          <MultilingualTextItem ID="4" CompositionName="Items">
+            <AttributeList>
+              <Culture>zh-CN</Culture>
+              <Text />
+            </AttributeList>
+          </MultilingualTextItem>
+        </ObjectList>
+      </MultilingualText>
+    </ObjectList>
+  </SW.Blocks.GlobalDB>
+</Document>

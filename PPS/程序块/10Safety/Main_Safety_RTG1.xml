@@ -1,0 +1,3662 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Document>
+  <Engineering version="V18" />
+  <SW.Blocks.FB ID="0">
+    <AttributeList>
+      <AutoNumber>false</AutoNumber>
+      <HeaderAuthor />
+      <HeaderFamily />
+      <HeaderName />
+      <HeaderVersion>0.1</HeaderVersion>
+      <Interface><Sections xmlns="http://www.siemens.com/automation/Openness/SW/Interface/v5">
+  <Section Name="Input" />
+  <Section Name="Output" />
+  <Section Name="InOut" />
+  <Section Name="Static">
+    <Member Name="ACK_GL_Instance" Datatype="ACK_GL" Version="1.3" Accessibility="Public">
+      <AttributeList>
+        <BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute>
+        <BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute>
+        <BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute>
+        <BooleanAttribute Name="SetPoint" SystemDefined="true">false</BooleanAttribute>
+      </AttributeList>
+      <Sections>
+        <Section Name="Input">
+          <Member Name="ACK_GLOB" Datatype="Bool" />
+        </Section>
+        <Section Name="Output" />
+        <Section Name="InOut" />
+        <Section Name="Static" />
+      </Sections>
+    </Member>
+    <Member Name="FS_Room1_Instance" Datatype="&quot;FS_Room1&quot;" Accessibility="Public">
+      <AttributeList>
+        <BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute>
+        <BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute>
+        <BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute>
+        <BooleanAttribute Name="SetPoint" SystemDefined="true">false</BooleanAttribute>
+      </AttributeList>
+      <Sections>
+        <Section Name="Input">
+          <Member Name="ACK" Datatype="Bool" />
+        </Section>
+        <Section Name="Output">
+          <Member Name="ES_OK" Datatype="Bool" />
+        </Section>
+        <Section Name="InOut" />
+        <Section Name="Static">
+          <Member Name="EStop1" Datatype="ESTOP1" Version="1.6">
+            <Sections>
+              <Section Name="Input">
+                <Member Name="E_STOP" Datatype="Bool" />
+                <Member Name="ACK_NEC" Datatype="Bool" />
+                <Member Name="ACK" Datatype="Bool" />
+                <Member Name="TIME_DEL" Datatype="Time" />
+              </Section>
+              <Section Name="Output">
+                <Member Name="Q" Datatype="Bool" />
+                <Member Name="Q_DELAY" Datatype="Bool" />
+                <Member Name="ACK_REQ" Datatype="Bool" />
+                <Member Name="DIAG" Datatype="Byte" />
+              </Section>
+              <Section Name="InOut" />
+              <Section Name="Static" />
+            </Sections>
+          </Member>
+          <Member Name="EStop2" Datatype="ESTOP1" Version="1.6">
+            <Sections>
+              <Section Name="Input">
+                <Member Name="E_STOP" Datatype="Bool" />
+                <Member Name="ACK_NEC" Datatype="Bool" />
+                <Member Name="ACK" Datatype="Bool" />
+                <Member Name="TIME_DEL" Datatype="Time" />
+              </Section>
+              <Section Name="Output">
+                <Member Name="Q" Datatype="Bool" />
+                <Member Name="Q_DELAY" Datatype="Bool" />
+                <Member Name="ACK_REQ" Datatype="Bool" />
+                <Member Name="DIAG" Datatype="Byte" />
+              </Section>
+              <Section Name="InOut" />
+              <Section Name="Static" />
+            </Sections>
+          </Member>
+          <Member Name="EStop3" Datatype="ESTOP1" Version="1.6">
+            <Sections>
+              <Section Name="Input">
+                <Member Name="E_STOP" Datatype="Bool" />
+                <Member Name="ACK_NEC" Datatype="Bool" />
+                <Member Name="ACK" Datatype="Bool" />
+                <Member Name="TIME_DEL" Datatype="Time" />
+              </Section>
+              <Section Name="Output">
+                <Member Name="Q" Datatype="Bool" />
+                <Member Name="Q_DELAY" Datatype="Bool" />
+                <Member Name="ACK_REQ" Datatype="Bool" />
+                <Member Name="DIAG" Datatype="Byte" />
+              </Section>
+              <Section Name="InOut" />
+              <Section Name="Static" />
+            </Sections>
+          </Member>
+          <Member Name="EStop4" Datatype="ESTOP1" Version="1.6">
+            <Sections>
+              <Section Name="Input">
+                <Member Name="E_STOP" Datatype="Bool" />
+                <Member Name="ACK_NEC" Datatype="Bool" />
+                <Member Name="ACK" Datatype="Bool" />
+                <Member Name="TIME_DEL" Datatype="Time" />
+              </Section>
+              <Section Name="Output">
+                <Member Name="Q" Datatype="Bool" />
+                <Member Name="Q_DELAY" Datatype="Bool" />
+                <Member Name="ACK_REQ" Datatype="Bool" />
+                <Member Name="DIAG" Datatype="Byte" />
+              </Section>
+              <Section Name="InOut" />
+              <Section Name="Static" />
+            </Sections>
+          </Member>
+          <Member Name="EStop5" Datatype="ESTOP1" Version="1.6">
+            <Sections>
+              <Section Name="Input">
+                <Member Name="E_STOP" Datatype="Bool" />
+                <Member Name="ACK_NEC" Datatype="Bool" />
+                <Member Name="ACK" Datatype="Bool" />
+                <Member Name="TIME_DEL" Datatype="Time" />
+              </Section>
+              <Section Name="Output">
+                <Member Name="Q" Datatype="Bool" />
+                <Member Name="Q_DELAY" Datatype="Bool" />
+                <Member Name="ACK_REQ" Datatype="Bool" />
+                <Member Name="DIAG" Datatype="Byte" />
+              </Section>
+              <Section Name="InOut" />
+              <Section Name="Static" />
+            </Sections>
+          </Member>
+          <Member Name="EStop6" Datatype="ESTOP1" Version="1.6">
+            <Sections>
+              <Section Name="Input">
+                <Member Name="E_STOP" Datatype="Bool" />
+                <Member Name="ACK_NEC" Datatype="Bool" />
+                <Member Name="ACK" Datatype="Bool" />
+                <Member Name="TIME_DEL" Datatype="Time" />
+              </Section>
+              <Section Name="Output">
+                <Member Name="Q" Datatype="Bool" />
+                <Member Name="Q_DELAY" Datatype="Bool" />
+                <Member Name="ACK_REQ" Datatype="Bool" />
+                <Member Name="DIAG" Datatype="Byte" />
+              </Section>
+              <Section Name="InOut" />
+              <Section Name="Static" />
+            </Sections>
+          </Member>
+          <Member Name="door" Datatype="SFDOOR" Version="1.3">
+            <Sections>
+              <Section Name="Input">
+                <Member Name="IN1" Datatype="Bool" />
+                <Member Name="IN2" Datatype="Bool" />
+                <Member Name="QBAD_IN1" Datatype="Bool" />
+                <Member Name="QBAD_IN2" Datatype="Bool" />
+                <Member Name="OPEN_NEC" Datatype="Bool" />
+                <Member Name="ACK_NEC" Datatype="Bool" />
+                <Member Name="ACK" Datatype="Bool" />
+              </Section>
+              <Section Name="Output">
+                <Member Name="Q" Datatype="Bool" />
+                <Member Name="ACK_REQ" Datatype="Bool" />
+                <Member Name="DIAG" Datatype="Byte" />
+              </Section>
+              <Section Name="InOut" />
+              <Section Name="Static" />
+            </Sections>
+          </Member>
+          <Member Name="Key" Datatype="SFDOOR" Version="1.3">
+            <Sections>
+              <Section Name="Input">
+                <Member Name="IN1" Datatype="Bool" />
+                <Member Name="IN2" Datatype="Bool" />
+                <Member Name="QBAD_IN1" Datatype="Bool" />
+                <Member Name="QBAD_IN2" Datatype="Bool" />
+                <Member Name="OPEN_NEC" Datatype="Bool" />
+                <Member Name="ACK_NEC" Datatype="Bool" />
+                <Member Name="ACK" Datatype="Bool" />
+              </Section>
+              <Section Name="Output">
+                <Member Name="Q" Datatype="Bool" />
+                <Member Name="ACK_REQ" Datatype="Bool" />
+                <Member Name="DIAG" Datatype="Byte" />
+              </Section>
+              <Section Name="InOut" />
+              <Section Name="Static" />
+            </Sections>
+          </Member>
+          <Member Name="KeyControl" Datatype="SFDOOR" Version="1.3">
+            <Sections>
+              <Section Name="Input">
+                <Member Name="IN1" Datatype="Bool" />
+                <Member Name="IN2" Datatype="Bool" />
+                <Member Name="QBAD_IN1" Datatype="Bool" />
+                <Member Name="QBAD_IN2" Datatype="Bool" />
+                <Member Name="OPEN_NEC" Datatype="Bool" />
+                <Member Name="ACK_NEC" Datatype="Bool" />
+                <Member Name="ACK" Datatype="Bool" />
+              </Section>
+              <Section Name="Output">
+                <Member Name="Q" Datatype="Bool" />
+                <Member Name="ACK_REQ" Datatype="Bool" />
+                <Member Name="DIAG" Datatype="Byte" />
+              </Section>
+              <Section Name="InOut" />
+              <Section Name="Static" />
+            </Sections>
+          </Member>
+          <Member Name="Door_Timer" Datatype="TON" Version="1.4">
+            <Sections>
+              <Section Name="Input">
+                <Member Name="IN" Datatype="Bool" />
+                <Member Name="PT" Datatype="Time" />
+              </Section>
+              <Section Name="Output">
+                <Member Name="Q" Datatype="Bool" />
+                <Member Name="ET" Datatype="Time" />
+              </Section>
+              <Section Name="InOut" />
+              <Section Name="Static" />
+            </Sections>
+          </Member>
+          <Member Name="Key1" Datatype="TON" Version="1.4">
+            <Sections>
+              <Section Name="Input">
+                <Member Name="IN" Datatype="Bool" />
+                <Member Name="PT" Datatype="Time" />
+              </Section>
+              <Section Name="Output">
+                <Member Name="Q" Datatype="Bool" />
+                <Member Name="ET" Datatype="Time" />
+              </Section>
+              <Section Name="InOut" />
+              <Section Name="Static" />
+            </Sections>
+          </Member>
+          <Member Name="KeyControl1" Datatype="TON" Version="1.4">
+            <Sections>
+              <Section Name="Input">
+                <Member Name="IN" Datatype="Bool" />
+                <Member Name="PT" Datatype="Time" />
+              </Section>
+              <Section Name="Output">
+                <Member Name="Q" Datatype="Bool" />
+                <Member Name="ET" Datatype="Time" />
+              </Section>
+              <Section Name="InOut" />
+              <Section Name="Static" />
+            </Sections>
+          </Member>
+          <Member Name="Key_InDoor" Datatype="Bool" />
+          <Member Name="Key_InControl" Datatype="Bool" />
+        </Section>
+      </Sections>
+    </Member>
+    <Member Name="FS_Room2_Instance" Datatype="&quot;FS_Room2&quot;" Accessibility="Public">
+      <AttributeList>
+        <BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute>
+        <BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute>
+        <BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute>
+        <BooleanAttribute Name="SetPoint" SystemDefined="true">false</BooleanAttribute>
+      </AttributeList>
+      <Sections>
+        <Section Name="Input">
+          <Member Name="ACK" Datatype="Bool" />
+        </Section>
+        <Section Name="Output">
+          <Member Name="ES_OK" Datatype="Bool" />
+        </Section>
+        <Section Name="InOut" />
+        <Section Name="Static">
+          <Member Name="EStop1" Datatype="ESTOP1" Version="1.6">
+            <Sections>
+              <Section Name="Input">
+                <Member Name="E_STOP" Datatype="Bool" />
+                <Member Name="ACK_NEC" Datatype="Bool" />
+                <Member Name="ACK" Datatype="Bool" />
+                <Member Name="TIME_DEL" Datatype="Time" />
+              </Section>
+              <Section Name="Output">
+                <Member Name="Q" Datatype="Bool" />
+                <Member Name="Q_DELAY" Datatype="Bool" />
+                <Member Name="ACK_REQ" Datatype="Bool" />
+                <Member Name="DIAG" Datatype="Byte" />
+              </Section>
+              <Section Name="InOut" />
+              <Section Name="Static" />
+            </Sections>
+          </Member>
+          <Member Name="EStop2" Datatype="ESTOP1" Version="1.6">
+            <Sections>
+              <Section Name="Input">
+                <Member Name="E_STOP" Datatype="Bool" />
+                <Member Name="ACK_NEC" Datatype="Bool" />
+                <Member Name="ACK" Datatype="Bool" />
+                <Member Name="TIME_DEL" Datatype="Time" />
+              </Section>
+              <Section Name="Output">
+                <Member Name="Q" Datatype="Bool" />
+                <Member Name="Q_DELAY" Datatype="Bool" />
+                <Member Name="ACK_REQ" Datatype="Bool" />
+                <Member Name="DIAG" Datatype="Byte" />
+              </Section>
+              <Section Name="InOut" />
+              <Section Name="Static" />
+            </Sections>
+          </Member>
+          <Member Name="EStop3" Datatype="ESTOP1" Version="1.6">
+            <Sections>
+              <Section Name="Input">
+                <Member Name="E_STOP" Datatype="Bool" />
+                <Member Name="ACK_NEC" Datatype="Bool" />
+                <Member Name="ACK" Datatype="Bool" />
+                <Member Name="TIME_DEL" Datatype="Time" />
+              </Section>
+              <Section Name="Output">
+                <Member Name="Q" Datatype="Bool" />
+                <Member Name="Q_DELAY" Datatype="Bool" />
+                <Member Name="ACK_REQ" Datatype="Bool" />
+                <Member Name="DIAG" Datatype="Byte" />
+              </Section>
+              <Section Name="InOut" />
+              <Section Name="Static" />
+            </Sections>
+          </Member>
+          <Member Name="EStop4" Datatype="ESTOP1" Version="1.6">
+            <Sections>
+              <Section Name="Input">
+                <Member Name="E_STOP" Datatype="Bool" />
+                <Member Name="ACK_NEC" Datatype="Bool" />
+                <Member Name="ACK" Datatype="Bool" />
+                <Member Name="TIME_DEL" Datatype="Time" />
+              </Section>
+              <Section Name="Output">
+                <Member Name="Q" Datatype="Bool" />
+                <Member Name="Q_DELAY" Datatype="Bool" />
+                <Member Name="ACK_REQ" Datatype="Bool" />
+                <Member Name="DIAG" Datatype="Byte" />
+              </Section>
+              <Section Name="InOut" />
+              <Section Name="Static" />
+            </Sections>
+          </Member>
+          <Member Name="EStop5" Datatype="ESTOP1" Version="1.6">
+            <Sections>
+              <Section Name="Input">
+                <Member Name="E_STOP" Datatype="Bool" />
+                <Member Name="ACK_NEC" Datatype="Bool" />
+                <Member Name="ACK" Datatype="Bool" />
+                <Member Name="TIME_DEL" Datatype="Time" />
+              </Section>
+              <Section Name="Output">
+                <Member Name="Q" Datatype="Bool" />
+                <Member Name="Q_DELAY" Datatype="Bool" />
+                <Member Name="ACK_REQ" Datatype="Bool" />
+                <Member Name="DIAG" Datatype="Byte" />
+              </Section>
+              <Section Name="InOut" />
+              <Section Name="Static" />
+            </Sections>
+          </Member>
+          <Member Name="EStop6" Datatype="ESTOP1" Version="1.6">
+            <Sections>
+              <Section Name="Input">
+                <Member Name="E_STOP" Datatype="Bool" />
+                <Member Name="ACK_NEC" Datatype="Bool" />
+                <Member Name="ACK" Datatype="Bool" />
+                <Member Name="TIME_DEL" Datatype="Time" />
+              </Section>
+              <Section Name="Output">
+                <Member Name="Q" Datatype="Bool" />
+                <Member Name="Q_DELAY" Datatype="Bool" />
+                <Member Name="ACK_REQ" Datatype="Bool" />
+                <Member Name="DIAG" Datatype="Byte" />
+              </Section>
+              <Section Name="InOut" />
+              <Section Name="Static" />
+            </Sections>
+          </Member>
+          <Member Name="door" Datatype="SFDOOR" Version="1.3">
+            <Sections>
+              <Section Name="Input">
+                <Member Name="IN1" Datatype="Bool" />
+                <Member Name="IN2" Datatype="Bool" />
+                <Member Name="QBAD_IN1" Datatype="Bool" />
+                <Member Name="QBAD_IN2" Datatype="Bool" />
+                <Member Name="OPEN_NEC" Datatype="Bool" />
+                <Member Name="ACK_NEC" Datatype="Bool" />
+                <Member Name="ACK" Datatype="Bool" />
+              </Section>
+              <Section Name="Output">
+                <Member Name="Q" Datatype="Bool" />
+                <Member Name="ACK_REQ" Datatype="Bool" />
+                <Member Name="DIAG" Datatype="Byte" />
+              </Section>
+              <Section Name="InOut" />
+              <Section Name="Static" />
+            </Sections>
+          </Member>
+          <Member Name="Key" Datatype="SFDOOR" Version="1.3">
+            <Sections>
+              <Section Name="Input">
+                <Member Name="IN1" Datatype="Bool" />
+                <Member Name="IN2" Datatype="Bool" />
+                <Member Name="QBAD_IN1" Datatype="Bool" />
+                <Member Name="QBAD_IN2" Datatype="Bool" />
+                <Member Name="OPEN_NEC" Datatype="Bool" />
+                <Member Name="ACK_NEC" Datatype="Bool" />
+                <Member Name="ACK" Datatype="Bool" />
+              </Section>
+              <Section Name="Output">
+                <Member Name="Q" Datatype="Bool" />
+                <Member Name="ACK_REQ" Datatype="Bool" />
+                <Member Name="DIAG" Datatype="Byte" />
+              </Section>
+              <Section Name="InOut" />
+              <Section Name="Static" />
+            </Sections>
+          </Member>
+          <Member Name="KeyControl" Datatype="SFDOOR" Version="1.3">
+            <Sections>
+              <Section Name="Input">
+                <Member Name="IN1" Datatype="Bool" />
+                <Member Name="IN2" Datatype="Bool" />
+                <Member Name="QBAD_IN1" Datatype="Bool" />
+                <Member Name="QBAD_IN2" Datatype="Bool" />
+                <Member Name="OPEN_NEC" Datatype="Bool" />
+                <Member Name="ACK_NEC" Datatype="Bool" />
+                <Member Name="ACK" Datatype="Bool" />
+              </Section>
+              <Section Name="Output">
+                <Member Name="Q" Datatype="Bool" />
+                <Member Name="ACK_REQ" Datatype="Bool" />
+                <Member Name="DIAG" Datatype="Byte" />
+              </Section>
+              <Section Name="InOut" />
+              <Section Name="Static" />
+            </Sections>
+          </Member>
+        </Section>
+      </Sections>
+    </Member>
+    <Member Name="FS_ACC_Instance" Datatype="&quot;FS_ACC&quot;" Accessibility="Public">
+      <AttributeList>
+        <BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute>
+        <BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute>
+        <BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute>
+        <BooleanAttribute Name="SetPoint" SystemDefined="true">false</BooleanAttribute>
+      </AttributeList>
+      <Sections>
+        <Section Name="Input">
+          <Member Name="ACK" Datatype="Bool" />
+        </Section>
+        <Section Name="Output">
+          <Member Name="ES_OK" Datatype="Bool" />
+        </Section>
+        <Section Name="InOut" />
+        <Section Name="Static">
+          <Member Name="EStop1" Datatype="ESTOP1" Version="1.6">
+            <Sections>
+              <Section Name="Input">
+                <Member Name="E_STOP" Datatype="Bool" />
+                <Member Name="ACK_NEC" Datatype="Bool" />
+                <Member Name="ACK" Datatype="Bool" />
+                <Member Name="TIME_DEL" Datatype="Time" />
+              </Section>
+              <Section Name="Output">
+                <Member Name="Q" Datatype="Bool" />
+                <Member Name="Q_DELAY" Datatype="Bool" />
+                <Member Name="ACK_REQ" Datatype="Bool" />
+                <Member Name="DIAG" Datatype="Byte" />
+              </Section>
+              <Section Name="InOut" />
+              <Section Name="Static" />
+            </Sections>
+          </Member>
+          <Member Name="EStop2" Datatype="ESTOP1" Version="1.6">
+            <Sections>
+              <Section Name="Input">
+                <Member Name="E_STOP" Datatype="Bool" />
+                <Member Name="ACK_NEC" Datatype="Bool" />
+                <Member Name="ACK" Datatype="Bool" />
+                <Member Name="TIME_DEL" Datatype="Time" />
+              </Section>
+              <Section Name="Output">
+                <Member Name="Q" Datatype="Bool" />
+                <Member Name="Q_DELAY" Datatype="Bool" />
+                <Member Name="ACK_REQ" Datatype="Bool" />
+                <Member Name="DIAG" Datatype="Byte" />
+              </Section>
+              <Section Name="InOut" />
+              <Section Name="Static" />
+            </Sections>
+          </Member>
+          <Member Name="EStop3" Datatype="ESTOP1" Version="1.6">
+            <Sections>
+              <Section Name="Input">
+                <Member Name="E_STOP" Datatype="Bool" />
+                <Member Name="ACK_NEC" Datatype="Bool" />
+                <Member Name="ACK" Datatype="Bool" />
+                <Member Name="TIME_DEL" Datatype="Time" />
+              </Section>
+              <Section Name="Output">
+                <Member Name="Q" Datatype="Bool" />
+                <Member Name="Q_DELAY" Datatype="Bool" />
+                <Member Name="ACK_REQ" Datatype="Bool" />
+                <Member Name="DIAG" Datatype="Byte" />
+              </Section>
+              <Section Name="InOut" />
+              <Section Name="Static" />
+            </Sections>
+          </Member>
+          <Member Name="EStop4" Datatype="ESTOP1" Version="1.6">
+            <Sections>
+              <Section Name="Input">
+                <Member Name="E_STOP" Datatype="Bool" />
+                <Member Name="ACK_NEC" Datatype="Bool" />
+                <Member Name="ACK" Datatype="Bool" />
+                <Member Name="TIME_DEL" Datatype="Time" />
+              </Section>
+              <Section Name="Output">
+                <Member Name="Q" Datatype="Bool" />
+                <Member Name="Q_DELAY" Datatype="Bool" />
+                <Member Name="ACK_REQ" Datatype="Bool" />
+                <Member Name="DIAG" Datatype="Byte" />
+              </Section>
+              <Section Name="InOut" />
+              <Section Name="Static" />
+            </Sections>
+          </Member>
+          <Member Name="door1" Datatype="SFDOOR" Version="1.3">
+            <Sections>
+              <Section Name="Input">
+                <Member Name="IN1" Datatype="Bool" />
+                <Member Name="IN2" Datatype="Bool" />
+                <Member Name="QBAD_IN1" Datatype="Bool" />
+                <Member Name="QBAD_IN2" Datatype="Bool" />
+                <Member Name="OPEN_NEC" Datatype="Bool" />
+                <Member Name="ACK_NEC" Datatype="Bool" />
+                <Member Name="ACK" Datatype="Bool" />
+              </Section>
+              <Section Name="Output">
+                <Member Name="Q" Datatype="Bool" />
+                <Member Name="ACK_REQ" Datatype="Bool" />
+                <Member Name="DIAG" Datatype="Byte" />
+              </Section>
+              <Section Name="InOut" />
+              <Section Name="Static" />
+            </Sections>
+          </Member>
+          <Member Name="door2" Datatype="SFDOOR" Version="1.3">
+            <Sections>
+              <Section Name="Input">
+                <Member Name="IN1" Datatype="Bool" />
+                <Member Name="IN2" Datatype="Bool" />
+                <Member Name="QBAD_IN1" Datatype="Bool" />
+                <Member Name="QBAD_IN2" Datatype="Bool" />
+                <Member Name="OPEN_NEC" Datatype="Bool" />
+                <Member Name="ACK_NEC" Datatype="Bool" />
+                <Member Name="ACK" Datatype="Bool" />
+              </Section>
+              <Section Name="Output">
+                <Member Name="Q" Datatype="Bool" />
+                <Member Name="ACK_REQ" Datatype="Bool" />
+                <Member Name="DIAG" Datatype="Byte" />
+              </Section>
+              <Section Name="InOut" />
+              <Section Name="Static" />
+            </Sections>
+          </Member>
+          <Member Name="Key" Datatype="SFDOOR" Version="1.3">
+            <Sections>
+              <Section Name="Input">
+                <Member Name="IN1" Datatype="Bool" />
+                <Member Name="IN2" Datatype="Bool" />
+                <Member Name="QBAD_IN1" Datatype="Bool" />
+                <Member Name="QBAD_IN2" Datatype="Bool" />
+                <Member Name="OPEN_NEC" Datatype="Bool" />
+                <Member Name="ACK_NEC" Datatype="Bool" />
+                <Member Name="ACK" Datatype="Bool" />
+              </Section>
+              <Section Name="Output">
+                <Member Name="Q" Datatype="Bool" />
+                <Member Name="ACK_REQ" Datatype="Bool" />
+                <Member Name="DIAG" Datatype="Byte" />
+              </Section>
+              <Section Name="InOut" />
+              <Section Name="Static" />
+            </Sections>
+          </Member>
+          <Member Name="KeyControl" Datatype="SFDOOR" Version="1.3">
+            <Sections>
+              <Section Name="Input">
+                <Member Name="IN1" Datatype="Bool" />
+                <Member Name="IN2" Datatype="Bool" />
+                <Member Name="QBAD_IN1" Datatype="Bool" />
+                <Member Name="QBAD_IN2" Datatype="Bool" />
+                <Member Name="OPEN_NEC" Datatype="Bool" />
+                <Member Name="ACK_NEC" Datatype="Bool" />
+                <Member Name="ACK" Datatype="Bool" />
+              </Section>
+              <Section Name="Output">
+                <Member Name="Q" Datatype="Bool" />
+                <Member Name="ACK_REQ" Datatype="Bool" />
+                <Member Name="DIAG" Datatype="Byte" />
+              </Section>
+              <Section Name="InOut" />
+              <Section Name="Static" />
+            </Sections>
+          </Member>
+        </Section>
+      </Sections>
+    </Member>
+    <Member Name="FS_VerticalBeam_Instance" Datatype="&quot;FS_VerticalBeam&quot;" Accessibility="Public">
+      <AttributeList>
+        <BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute>
+        <BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute>
+        <BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute>
+        <BooleanAttribute Name="SetPoint" SystemDefined="true">false</BooleanAttribute>
+      </AttributeList>
+      <Sections>
+        <Section Name="Input">
+          <Member Name="ACK" Datatype="Bool" />
+        </Section>
+        <Section Name="Output">
+          <Member Name="ES_OK" Datatype="Bool" />
+        </Section>
+        <Section Name="InOut" />
+        <Section Name="Static">
+          <Member Name="EStop1" Datatype="ESTOP1" Version="1.6">
+            <Sections>
+              <Section Name="Input">
+                <Member Name="E_STOP" Datatype="Bool" />
+                <Member Name="ACK_NEC" Datatype="Bool" />
+                <Member Name="ACK" Datatype="Bool" />
+                <Member Name="TIME_DEL" Datatype="Time" />
+              </Section>
+              <Section Name="Output">
+                <Member Name="Q" Datatype="Bool" />
+                <Member Name="Q_DELAY" Datatype="Bool" />
+                <Member Name="ACK_REQ" Datatype="Bool" />
+                <Member Name="DIAG" Datatype="Byte" />
+              </Section>
+              <Section Name="InOut" />
+              <Section Name="Static" />
+            </Sections>
+          </Member>
+          <Member Name="EStop2" Datatype="ESTOP1" Version="1.6">
+            <Sections>
+              <Section Name="Input">
+                <Member Name="E_STOP" Datatype="Bool" />
+                <Member Name="ACK_NEC" Datatype="Bool" />
+                <Member Name="ACK" Datatype="Bool" />
+                <Member Name="TIME_DEL" Datatype="Time" />
+              </Section>
+              <Section Name="Output">
+                <Member Name="Q" Datatype="Bool" />
+                <Member Name="Q_DELAY" Datatype="Bool" />
+                <Member Name="ACK_REQ" Datatype="Bool" />
+                <Member Name="DIAG" Datatype="Byte" />
+              </Section>
+              <Section Name="InOut" />
+              <Section Name="Static" />
+            </Sections>
+          </Member>
+          <Member Name="EStop3" Datatype="ESTOP1" Version="1.6">
+            <Sections>
+              <Section Name="Input">
+                <Member Name="E_STOP" Datatype="Bool" />
+                <Member Name="ACK_NEC" Datatype="Bool" />
+                <Member Name="ACK" Datatype="Bool" />
+                <Member Name="TIME_DEL" Datatype="Time" />
+              </Section>
+              <Section Name="Output">
+                <Member Name="Q" Datatype="Bool" />
+                <Member Name="Q_DELAY" Datatype="Bool" />
+                <Member Name="ACK_REQ" Datatype="Bool" />
+                <Member Name="DIAG" Datatype="Byte" />
+              </Section>
+              <Section Name="InOut" />
+              <Section Name="Static" />
+            </Sections>
+          </Member>
+          <Member Name="EStop4" Datatype="ESTOP1" Version="1.6">
+            <Sections>
+              <Section Name="Input">
+                <Member Name="E_STOP" Datatype="Bool" />
+                <Member Name="ACK_NEC" Datatype="Bool" />
+                <Member Name="ACK" Datatype="Bool" />
+                <Member Name="TIME_DEL" Datatype="Time" />
+              </Section>
+              <Section Name="Output">
+                <Member Name="Q" Datatype="Bool" />
+                <Member Name="Q_DELAY" Datatype="Bool" />
+                <Member Name="ACK_REQ" Datatype="Bool" />
+                <Member Name="DIAG" Datatype="Byte" />
+              </Section>
+              <Section Name="InOut" />
+              <Section Name="Static" />
+            </Sections>
+          </Member>
+          <Member Name="door1" Datatype="SFDOOR" Version="1.3">
+            <Sections>
+              <Section Name="Input">
+                <Member Name="IN1" Datatype="Bool" />
+                <Member Name="IN2" Datatype="Bool" />
+                <Member Name="QBAD_IN1" Datatype="Bool" />
+                <Member Name="QBAD_IN2" Datatype="Bool" />
+                <Member Name="OPEN_NEC" Datatype="Bool" />
+                <Member Name="ACK_NEC" Datatype="Bool" />
+                <Member Name="ACK" Datatype="Bool" />
+              </Section>
+              <Section Name="Output">
+                <Member Name="Q" Datatype="Bool" />
+                <Member Name="ACK_REQ" Datatype="Bool" />
+                <Member Name="DIAG" Datatype="Byte" />
+              </Section>
+              <Section Name="InOut" />
+              <Section Name="Static" />
+            </Sections>
+          </Member>
+          <Member Name="door2" Datatype="SFDOOR" Version="1.3">
+            <Sections>
+              <Section Name="Input">
+                <Member Name="IN1" Datatype="Bool" />
+                <Member Name="IN2" Datatype="Bool" />
+                <Member Name="QBAD_IN1" Datatype="Bool" />
+                <Member Name="QBAD_IN2" Datatype="Bool" />
+                <Member Name="OPEN_NEC" Datatype="Bool" />
+                <Member Name="ACK_NEC" Datatype="Bool" />
+                <Member Name="ACK" Datatype="Bool" />
+              </Section>
+              <Section Name="Output">
+                <Member Name="Q" Datatype="Bool" />
+                <Member Name="ACK_REQ" Datatype="Bool" />
+                <Member Name="DIAG" Datatype="Byte" />
+              </Section>
+              <Section Name="InOut" />
+              <Section Name="Static" />
+            </Sections>
+          </Member>
+          <Member Name="Key" Datatype="SFDOOR" Version="1.3">
+            <Sections>
+              <Section Name="Input">
+                <Member Name="IN1" Datatype="Bool" />
+                <Member Name="IN2" Datatype="Bool" />
+                <Member Name="QBAD_IN1" Datatype="Bool" />
+                <Member Name="QBAD_IN2" Datatype="Bool" />
+                <Member Name="OPEN_NEC" Datatype="Bool" />
+                <Member Name="ACK_NEC" Datatype="Bool" />
+                <Member Name="ACK" Datatype="Bool" />
+              </Section>
+              <Section Name="Output">
+                <Member Name="Q" Datatype="Bool" />
+                <Member Name="ACK_REQ" Datatype="Bool" />
+                <Member Name="DIAG" Datatype="Byte" />
+              </Section>
+              <Section Name="InOut" />
+              <Section Name="Static" />
+            </Sections>
+          </Member>
+          <Member Name="KeyControl" Datatype="SFDOOR" Version="1.3">
+            <Sections>
+              <Section Name="Input">
+                <Member Name="IN1" Datatype="Bool" />
+                <Member Name="IN2" Datatype="Bool" />
+                <Member Name="QBAD_IN1" Datatype="Bool" />
+                <Member Name="QBAD_IN2" Datatype="Bool" />
+                <Member Name="OPEN_NEC" Datatype="Bool" />
+                <Member Name="ACK_NEC" Datatype="Bool" />
+                <Member Name="ACK" Datatype="Bool" />
+              </Section>
+              <Section Name="Output">
+                <Member Name="Q" Datatype="Bool" />
+                <Member Name="ACK_REQ" Datatype="Bool" />
+                <Member Name="DIAG" Datatype="Byte" />
+              </Section>
+              <Section Name="InOut" />
+              <Section Name="Static" />
+            </Sections>
+          </Member>
+        </Section>
+      </Sections>
+    </Member>
+  </Section>
+  <Section Name="Temp" />
+  <Section Name="Constant" />
+</Sections></Interface>
+      <IsIECCheckEnabled>false</IsIECCheckEnabled>
+      <MemoryLayout>Optimized</MemoryLayout>
+      <Name>Main_Safety_RTG1</Name>
+      <Namespace />
+      <Number>1</Number>
+      <ProgrammingLanguage>F_LAD</ProgrammingLanguage>
+      <UDABlockProperties />
+      <UDAEnableTagReadback>false</UDAEnableTagReadback>
+    </AttributeList>
+    <ObjectList>
+      <MultilingualText ID="1" CompositionName="Comment">
+        <ObjectList>
+          <MultilingualTextItem ID="2" CompositionName="Items">
+            <AttributeList>
+              <Culture>zh-CN</Culture>
+              <Text />
+            </AttributeList>
+          </MultilingualTextItem>
+        </ObjectList>
+      </MultilingualText>
+      <SW.Blocks.CompileUnit ID="3" CompositionName="CompileUnits">
+        <AttributeList>
+          <NetworkSource><FlgNet xmlns="http://www.siemens.com/automation/Openness/SW/NetworkSource/FlgNet/v4">
+  <Parts>
+    <Part Name="ACK_GL" Version="1.3" UId="21">
+      <Instance Scope="LocalVariable" UId="22">
+        <Component Name="ACK_GL_Instance" />
+      </Instance>
+      <TemplateValue Name="f_user_card" Type="Cardinality">1</TemplateValue>
+      <TemplateValue Name="f_image_card" Type="Cardinality">0</TemplateValue>
+      <TemplateValue Name="codedbool_type" Type="Type">DInt</TemplateValue>
+    </Part>
+  </Parts>
+  <Wires>
+    <Wire UId="24">
+      <OpenCon UId="23" />
+      <NameCon UId="21" Name="ACK_GLOB" />
+    </Wire>
+    <Wire UId="25">
+      <Powerrail />
+      <NameCon UId="21" Name="en" />
+    </Wire>
+  </Wires>
+</FlgNet></NetworkSource>
+          <ProgrammingLanguage>F_LAD</ProgrammingLanguage>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="4" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="5" CompositionName="Items">
+                <AttributeList>
+                  <Culture>zh-CN</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+          <MultilingualText ID="6" CompositionName="Title">
+            <ObjectList>
+              <MultilingualTextItem ID="7" CompositionName="Items">
+                <AttributeList>
+                  <Culture>zh-CN</Culture>
+                  <Text>全局确认钝化</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Blocks.CompileUnit>
+      <SW.Blocks.CompileUnit ID="8" CompositionName="CompileUnits">
+        <AttributeList>
+          <NetworkSource><FlgNet xmlns="http://www.siemens.com/automation/Openness/SW/NetworkSource/FlgNet/v4">
+  <Parts>
+    <Call UId="21">
+      <CallInfo Name="FS_Room1" BlockType="FB">
+        <Instance Scope="LocalVariable" UId="22">
+          <Component Name="FS_Room1_Instance" />
+        </Instance>
+        <Parameter Name="ACK" Section="Input" Type="Bool" />
+        <Parameter Name="ES_OK" Section="Output" Type="Bool" />
+      </CallInfo>
+    </Call>
+  </Parts>
+  <Wires>
+    <Wire UId="25">
+      <OpenCon UId="23" />
+      <NameCon UId="21" Name="ACK" />
+    </Wire>
+    <Wire UId="26">
+      <NameCon UId="21" Name="ES_OK" />
+      <OpenCon UId="24" />
+    </Wire>
+    <Wire UId="27">
+      <Powerrail />
+      <NameCon UId="21" Name="en" />
+    </Wire>
+  </Wires>
+</FlgNet></NetworkSource>
+          <ProgrammingLanguage>F_LAD</ProgrammingLanguage>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="9" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="A" CompositionName="Items">
+                <AttributeList>
+                  <Culture>zh-CN</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+          <MultilingualText ID="B" CompositionName="Title">
+            <ObjectList>
+              <MultilingualTextItem ID="C" CompositionName="Items">
+                <AttributeList>
+                  <Culture>zh-CN</Culture>
+                  <Text>Room1</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Blocks.CompileUnit>
+      <SW.Blocks.CompileUnit ID="D" CompositionName="CompileUnits">
+        <AttributeList>
+          <NetworkSource><FlgNet xmlns="http://www.siemens.com/automation/Openness/SW/NetworkSource/FlgNet/v4">
+  <Parts>
+    <Call UId="21">
+      <CallInfo Name="FS_Room2" BlockType="FB">
+        <Instance Scope="LocalVariable" UId="22">
+          <Component Name="FS_Room2_Instance" />
+        </Instance>
+        <Parameter Name="ACK" Section="Input" Type="Bool" />
+        <Parameter Name="ES_OK" Section="Output" Type="Bool" />
+      </CallInfo>
+    </Call>
+  </Parts>
+  <Wires>
+    <Wire UId="25">
+      <OpenCon UId="23" />
+      <NameCon UId="21" Name="ACK" />
+    </Wire>
+    <Wire UId="26">
+      <NameCon UId="21" Name="ES_OK" />
+      <OpenCon UId="24" />
+    </Wire>
+    <Wire UId="27">
+      <Powerrail />
+      <NameCon UId="21" Name="en" />
+    </Wire>
+  </Wires>
+</FlgNet></NetworkSource>
+          <ProgrammingLanguage>F_LAD</ProgrammingLanguage>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="E" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="F" CompositionName="Items">
+                <AttributeList>
+                  <Culture>zh-CN</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+          <MultilingualText ID="10" CompositionName="Title">
+            <ObjectList>
+              <MultilingualTextItem ID="11" CompositionName="Items">
+                <AttributeList>
+                  <Culture>zh-CN</Culture>
+                  <Text>Room2</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Blocks.CompileUnit>
+      <SW.Blocks.CompileUnit ID="12" CompositionName="CompileUnits">
+        <AttributeList>
+          <NetworkSource><FlgNet xmlns="http://www.siemens.com/automation/Openness/SW/NetworkSource/FlgNet/v4">
+  <Parts>
+    <Call UId="21">
+      <CallInfo Name="FS_ACC" BlockType="FB">
+        <Instance Scope="LocalVariable" UId="22">
+          <Component Name="FS_ACC_Instance" />
+        </Instance>
+        <Parameter Name="ACK" Section="Input" Type="Bool" />
+        <Parameter Name="ES_OK" Section="Output" Type="Bool" />
+      </CallInfo>
+    </Call>
+  </Parts>
+  <Wires>
+    <Wire UId="25">
+      <OpenCon UId="23" />
+      <NameCon UId="21" Name="ACK" />
+    </Wire>
+    <Wire UId="26">
+      <NameCon UId="21" Name="ES_OK" />
+      <OpenCon UId="24" />
+    </Wire>
+    <Wire UId="27">
+      <Powerrail />
+      <NameCon UId="21" Name="en" />
+    </Wire>
+  </Wires>
+</FlgNet></NetworkSource>
+          <ProgrammingLanguage>F_LAD</ProgrammingLanguage>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="13" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="14" CompositionName="Items">
+                <AttributeList>
+                  <Culture>zh-CN</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+          <MultilingualText ID="15" CompositionName="Title">
+            <ObjectList>
+              <MultilingualTextItem ID="16" CompositionName="Items">
+                <AttributeList>
+                  <Culture>zh-CN</Culture>
+                  <Text>ACC</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Blocks.CompileUnit>
+      <SW.Blocks.CompileUnit ID="17" CompositionName="CompileUnits">
+        <AttributeList>
+          <NetworkSource><FlgNet xmlns="http://www.siemens.com/automation/Openness/SW/NetworkSource/FlgNet/v4">
+  <Parts>
+    <Call UId="21">
+      <CallInfo Name="FS_VerticalBeam" BlockType="FB">
+        <Instance Scope="LocalVariable" UId="22">
+          <Component Name="FS_VerticalBeam_Instance" />
+        </Instance>
+        <Parameter Name="ACK" Section="Input" Type="Bool" />
+        <Parameter Name="ES_OK" Section="Output" Type="Bool" />
+      </CallInfo>
+    </Call>
+  </Parts>
+  <Wires>
+    <Wire UId="25">
+      <OpenCon UId="23" />
+      <NameCon UId="21" Name="ACK" />
+    </Wire>
+    <Wire UId="26">
+      <NameCon UId="21" Name="ES_OK" />
+      <OpenCon UId="24" />
+    </Wire>
+    <Wire UId="27">
+      <Powerrail />
+      <NameCon UId="21" Name="en" />
+    </Wire>
+  </Wires>
+</FlgNet></NetworkSource>
+          <ProgrammingLanguage>F_LAD</ProgrammingLanguage>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="18" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="19" CompositionName="Items">
+                <AttributeList>
+                  <Culture>zh-CN</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+          <MultilingualText ID="1A" CompositionName="Title">
+            <ObjectList>
+              <MultilingualTextItem ID="1B" CompositionName="Items">
+                <AttributeList>
+                  <Culture>zh-CN</Culture>
+                  <Text>VerticalBeam</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Blocks.CompileUnit>
+      <SW.Blocks.CompileUnit ID="1C" CompositionName="CompileUnits">
+        <AttributeList>
+          <NetworkSource><FlgNet xmlns="http://www.siemens.com/automation/Openness/SW/NetworkSource/FlgNet/v4">
+  <Parts>
+    <Access Scope="GlobalVariable" UId="21">
+      <Symbol>
+        <Component Name="数据块_1" />
+        <Component Name="Room1_Interlock" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="22">
+      <Symbol>
+        <Component Name="数据块_1" />
+        <Component Name="Room2_Interlock" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="23">
+      <Symbol>
+        <Component Name="数据块_1" />
+        <Component Name="ACC_Interlock" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="24">
+      <Symbol>
+        <Component Name="数据块_1" />
+        <Component Name="VerticalBeam_Interlock" />
+      </Symbol>
+    </Access>
+    <Access Scope="LocalVariable" UId="25">
+      <Symbol>
+        <Component Name="FS_Room1_Instance" />
+        <Component Name="ES_OK" />
+      </Symbol>
+    </Access>
+    <Access Scope="LocalVariable" UId="26">
+      <Symbol>
+        <Component Name="FS_Room2_Instance" />
+        <Component Name="ES_OK" />
+      </Symbol>
+    </Access>
+    <Access Scope="LocalVariable" UId="27">
+      <Symbol>
+        <Component Name="FS_ACC_Instance" />
+        <Component Name="ES_OK" />
+      </Symbol>
+    </Access>
+    <Access Scope="LocalVariable" UId="28">
+      <Symbol>
+        <Component Name="FS_VerticalBeam_Instance" />
+        <Component Name="ES_OK" />
+      </Symbol>
+    </Access>
+    <Part Name="Contact" UId="29" />
+    <Part Name="Contact" UId="30" />
+    <Part Name="Contact" UId="31" />
+    <Part Name="Contact" UId="32" />
+    <Call UId="33">
+      <CallInfo Name="Interlock" BlockType="FC">
+        <Parameter Name="Room1_Interlock" Section="Input" Type="Bool" />
+        <Parameter Name="Room2_Interlock" Section="Input" Type="Bool" />
+        <Parameter Name="ACC_Interlock" Section="Input" Type="Bool" />
+        <Parameter Name="VerticalBeam_Interlock" Section="Input" Type="Bool" />
+        <Parameter Name="E-stop" Section="Input" Type="Bool" />
+      </CallInfo>
+    </Call>
+  </Parts>
+  <Wires>
+    <Wire UId="34">
+      <IdentCon UId="25" />
+      <NameCon UId="29" Name="operand" />
+    </Wire>
+    <Wire UId="35">
+      <IdentCon UId="26" />
+      <NameCon UId="30" Name="operand" />
+    </Wire>
+    <Wire UId="36">
+      <IdentCon UId="27" />
+      <NameCon UId="31" Name="operand" />
+    </Wire>
+    <Wire UId="37">
+      <IdentCon UId="28" />
+      <NameCon UId="32" Name="operand" />
+    </Wire>
+    <Wire UId="38">
+      <IdentCon UId="21" />
+      <NameCon UId="33" Name="Room1_Interlock" />
+    </Wire>
+    <Wire UId="39">
+      <IdentCon UId="22" />
+      <NameCon UId="33" Name="Room2_Interlock" />
+    </Wire>
+    <Wire UId="40">
+      <IdentCon UId="23" />
+      <NameCon UId="33" Name="ACC_Interlock" />
+    </Wire>
+    <Wire UId="41">
+      <IdentCon UId="24" />
+      <NameCon UId="33" Name="VerticalBeam_Interlock" />
+    </Wire>
+    <Wire UId="42">
+      <NameCon UId="29" Name="out" />
+      <NameCon UId="30" Name="in" />
+    </Wire>
+    <Wire UId="43">
+      <NameCon UId="30" Name="out" />
+      <NameCon UId="31" Name="in" />
+    </Wire>
+    <Wire UId="44">
+      <NameCon UId="31" Name="out" />
+      <NameCon UId="32" Name="in" />
+    </Wire>
+    <Wire UId="45">
+      <NameCon UId="32" Name="out" />
+      <NameCon UId="33" Name="E-stop" />
+    </Wire>
+    <Wire UId="46">
+      <Powerrail />
+      <NameCon UId="33" Name="en" />
+      <NameCon UId="29" Name="in" />
+    </Wire>
+  </Wires>
+</FlgNet></NetworkSource>
+          <ProgrammingLanguage>F_LAD</ProgrammingLanguage>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="1D" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="1E" CompositionName="Items">
+                <AttributeList>
+                  <Culture>zh-CN</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+          <MultilingualText ID="1F" CompositionName="Title">
+            <ObjectList>
+              <MultilingualTextItem ID="20" CompositionName="Items">
+                <AttributeList>
+                  <Culture>zh-CN</Culture>
+                  <Text>Interlock Output</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Blocks.CompileUnit>
+      <SW.Blocks.CompileUnit ID="21" CompositionName="CompileUnits">
+        <AttributeList>
+          <NetworkSource><FlgNet xmlns="http://www.siemens.com/automation/Openness/SW/NetworkSource/FlgNet/v4">
+  <Parts>
+    <Access Scope="GlobalVariable" UId="21">
+      <Symbol>
+        <Component Name="F00200_A21_1" />
+        <Component Name="PASS_OUT" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="22">
+      <Symbol>
+        <Component Name="F00200_A21_1" />
+        <Component Name="QBAD" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="23">
+      <Symbol>
+        <Component Name="F00200_A21_1" />
+        <Component Name="ACK_REQ" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="24">
+      <Symbol>
+        <Component Name="Room1_ES1_ValueStatus" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="25">
+      <Symbol>
+        <Component Name="Room1_ES2_ValueStatus" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="26">
+      <Symbol>
+        <Component Name="Room1_ES3_ValueStatus" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="27">
+      <Symbol>
+        <Component Name="Room1_ES4_ValueStatus" />
+      </Symbol>
+    </Access>
+    <Access Scope="LiteralConstant" UId="28">
+      <Constant>
+        <ConstantType>Bool</ConstantType>
+        <ConstantValue>True</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="LiteralConstant" UId="29">
+      <Constant>
+        <ConstantType>Bool</ConstantType>
+        <ConstantValue>True</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="LiteralConstant" UId="30">
+      <Constant>
+        <ConstantType>Bool</ConstantType>
+        <ConstantValue>True</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="LiteralConstant" UId="31">
+      <Constant>
+        <ConstantType>Bool</ConstantType>
+        <ConstantValue>True</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="GlobalVariable" UId="32">
+      <Symbol>
+        <Component Name="数据块_2" />
+        <Component Name="F-DI_A21_1" />
+      </Symbol>
+    </Access>
+    <Call UId="33">
+      <CallInfo Name="F_ChannelDia" BlockType="FC">
+        <Parameter Name="PASS_OUT" Section="Input" Type="Bool" />
+        <Parameter Name="QBAD" Section="Input" Type="Bool" />
+        <Parameter Name="ACK_REQ" Section="Input" Type="Bool" />
+        <Parameter Name="Channel0_ValueStatus" Section="Input" Type="Bool" />
+        <Parameter Name="Channel1_ValueStatus" Section="Input" Type="Bool" />
+        <Parameter Name="Channel2_ValueStatus" Section="Input" Type="Bool" />
+        <Parameter Name="Channel3_ValueStatus" Section="Input" Type="Bool" />
+        <Parameter Name="Channel4_ValueStatus" Section="Input" Type="Bool" />
+        <Parameter Name="Channel5_ValueStatus" Section="Input" Type="Bool" />
+        <Parameter Name="Channel6_ValueStatus" Section="Input" Type="Bool" />
+        <Parameter Name="Channel7_ValueStatus" Section="Input" Type="Bool" />
+        <Parameter Name="FIODia" Section="Output" Type="&quot;FIODia&quot;" />
+      </CallInfo>
+    </Call>
+  </Parts>
+  <Wires>
+    <Wire UId="34">
+      <IdentCon UId="21" />
+      <NameCon UId="33" Name="PASS_OUT" />
+    </Wire>
+    <Wire UId="35">
+      <IdentCon UId="22" />
+      <NameCon UId="33" Name="QBAD" />
+    </Wire>
+    <Wire UId="36">
+      <IdentCon UId="23" />
+      <NameCon UId="33" Name="ACK_REQ" />
+    </Wire>
+    <Wire UId="37">
+      <IdentCon UId="24" />
+      <NameCon UId="33" Name="Channel0_ValueStatus" />
+    </Wire>
+    <Wire UId="38">
+      <IdentCon UId="25" />
+      <NameCon UId="33" Name="Channel1_ValueStatus" />
+    </Wire>
+    <Wire UId="39">
+      <IdentCon UId="26" />
+      <NameCon UId="33" Name="Channel2_ValueStatus" />
+    </Wire>
+    <Wire UId="40">
+      <IdentCon UId="27" />
+      <NameCon UId="33" Name="Channel3_ValueStatus" />
+    </Wire>
+    <Wire UId="41">
+      <IdentCon UId="28" />
+      <NameCon UId="33" Name="Channel4_ValueStatus" />
+    </Wire>
+    <Wire UId="42">
+      <IdentCon UId="29" />
+      <NameCon UId="33" Name="Channel5_ValueStatus" />
+    </Wire>
+    <Wire UId="43">
+      <IdentCon UId="30" />
+      <NameCon UId="33" Name="Channel6_ValueStatus" />
+    </Wire>
+    <Wire UId="44">
+      <IdentCon UId="31" />
+      <NameCon UId="33" Name="Channel7_ValueStatus" />
+    </Wire>
+    <Wire UId="45">
+      <NameCon UId="33" Name="FIODia" />
+      <IdentCon UId="32" />
+    </Wire>
+    <Wire UId="46">
+      <Powerrail />
+      <NameCon UId="33" Name="en" />
+    </Wire>
+  </Wires>
+</FlgNet></NetworkSource>
+          <ProgrammingLanguage>F_LAD</ProgrammingLanguage>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="22" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="23" CompositionName="Items">
+                <AttributeList>
+                  <Culture>zh-CN</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+          <MultilingualText ID="24" CompositionName="Title">
+            <ObjectList>
+              <MultilingualTextItem ID="25" CompositionName="Items">
+                <AttributeList>
+                  <Culture>zh-CN</Culture>
+                  <Text>A21.1 诊断</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Blocks.CompileUnit>
+      <SW.Blocks.CompileUnit ID="26" CompositionName="CompileUnits">
+        <AttributeList>
+          <NetworkSource><FlgNet xmlns="http://www.siemens.com/automation/Openness/SW/NetworkSource/FlgNet/v4">
+  <Parts>
+    <Access Scope="GlobalVariable" UId="21">
+      <Symbol>
+        <Component Name="F00206_A21_2" />
+        <Component Name="PASS_OUT" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="22">
+      <Symbol>
+        <Component Name="F00206_A21_2" />
+        <Component Name="QBAD" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="23">
+      <Symbol>
+        <Component Name="F00206_A21_2" />
+        <Component Name="ACK_REQ" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="24">
+      <Symbol>
+        <Component Name="Room1_ES5_ValueStatus" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="25">
+      <Symbol>
+        <Component Name="Room1Control_ES6_ValueStatus" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="26">
+      <Symbol>
+        <Component Name="Room1_Key1.1_ValueStatus" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="27">
+      <Symbol>
+        <Component Name="Room1Control_Key1.1_ValueStatus" />
+      </Symbol>
+    </Access>
+    <Access Scope="LiteralConstant" UId="28">
+      <Constant>
+        <ConstantType>Bool</ConstantType>
+        <ConstantValue>True</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="LiteralConstant" UId="29">
+      <Constant>
+        <ConstantType>Bool</ConstantType>
+        <ConstantValue>True</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="GlobalVariable" UId="30">
+      <Symbol>
+        <Component Name="Room1_Key1.2_ValueStatus" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="31">
+      <Symbol>
+        <Component Name="Room1Control_Key1.2_ValueStatus" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="32">
+      <Symbol>
+        <Component Name="数据块_2" />
+        <Component Name="F-DI_A21_2" />
+      </Symbol>
+    </Access>
+    <Call UId="33">
+      <CallInfo Name="F_ChannelDia" BlockType="FC">
+        <Parameter Name="PASS_OUT" Section="Input" Type="Bool" />
+        <Parameter Name="QBAD" Section="Input" Type="Bool" />
+        <Parameter Name="ACK_REQ" Section="Input" Type="Bool" />
+        <Parameter Name="Channel0_ValueStatus" Section="Input" Type="Bool" />
+        <Parameter Name="Channel1_ValueStatus" Section="Input" Type="Bool" />
+        <Parameter Name="Channel2_ValueStatus" Section="Input" Type="Bool" />
+        <Parameter Name="Channel3_ValueStatus" Section="Input" Type="Bool" />
+        <Parameter Name="Channel4_ValueStatus" Section="Input" Type="Bool" />
+        <Parameter Name="Channel5_ValueStatus" Section="Input" Type="Bool" />
+        <Parameter Name="Channel6_ValueStatus" Section="Input" Type="Bool" />
+        <Parameter Name="Channel7_ValueStatus" Section="Input" Type="Bool" />
+        <Parameter Name="FIODia" Section="Output" Type="&quot;FIODia&quot;" />
+      </CallInfo>
+    </Call>
+  </Parts>
+  <Wires>
+    <Wire UId="34">
+      <IdentCon UId="21" />
+      <NameCon UId="33" Name="PASS_OUT" />
+    </Wire>
+    <Wire UId="35">
+      <IdentCon UId="22" />
+      <NameCon UId="33" Name="QBAD" />
+    </Wire>
+    <Wire UId="36">
+      <IdentCon UId="23" />
+      <NameCon UId="33" Name="ACK_REQ" />
+    </Wire>
+    <Wire UId="37">
+      <IdentCon UId="24" />
+      <NameCon UId="33" Name="Channel0_ValueStatus" />
+    </Wire>
+    <Wire UId="38">
+      <IdentCon UId="25" />
+      <NameCon UId="33" Name="Channel1_ValueStatus" />
+    </Wire>
+    <Wire UId="39">
+      <IdentCon UId="26" />
+      <NameCon UId="33" Name="Channel2_ValueStatus" />
+    </Wire>
+    <Wire UId="40">
+      <IdentCon UId="27" />
+      <NameCon UId="33" Name="Channel3_ValueStatus" />
+    </Wire>
+    <Wire UId="41">
+      <IdentCon UId="28" />
+      <NameCon UId="33" Name="Channel4_ValueStatus" />
+    </Wire>
+    <Wire UId="42">
+      <IdentCon UId="29" />
+      <NameCon UId="33" Name="Channel5_ValueStatus" />
+    </Wire>
+    <Wire UId="43">
+      <IdentCon UId="30" />
+      <NameCon UId="33" Name="Channel6_ValueStatus" />
+    </Wire>
+    <Wire UId="44">
+      <IdentCon UId="31" />
+      <NameCon UId="33" Name="Channel7_ValueStatus" />
+    </Wire>
+    <Wire UId="45">
+      <NameCon UId="33" Name="FIODia" />
+      <IdentCon UId="32" />
+    </Wire>
+    <Wire UId="46">
+      <Powerrail />
+      <NameCon UId="33" Name="en" />
+    </Wire>
+  </Wires>
+</FlgNet></NetworkSource>
+          <ProgrammingLanguage>F_LAD</ProgrammingLanguage>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="27" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="28" CompositionName="Items">
+                <AttributeList>
+                  <Culture>zh-CN</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+          <MultilingualText ID="29" CompositionName="Title">
+            <ObjectList>
+              <MultilingualTextItem ID="2A" CompositionName="Items">
+                <AttributeList>
+                  <Culture>zh-CN</Culture>
+                  <Text>A21.2 诊断</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Blocks.CompileUnit>
+      <SW.Blocks.CompileUnit ID="2B" CompositionName="CompileUnits">
+        <AttributeList>
+          <NetworkSource><FlgNet xmlns="http://www.siemens.com/automation/Openness/SW/NetworkSource/FlgNet/v4">
+  <Parts>
+    <Access Scope="GlobalVariable" UId="21">
+      <Symbol>
+        <Component Name="F00212_A21_3" />
+        <Component Name="PASS_OUT" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="22">
+      <Symbol>
+        <Component Name="F00212_A21_3" />
+        <Component Name="QBAD" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="23">
+      <Symbol>
+        <Component Name="F00212_A21_3" />
+        <Component Name="ACK_REQ" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="24">
+      <Symbol>
+        <Component Name="Room1_door1.1_ValueStatus" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="25">
+      <Symbol>
+        <Component Name="Room1_door1.2_ValueStatus" />
+      </Symbol>
+    </Access>
+    <Access Scope="LiteralConstant" UId="26">
+      <Constant>
+        <ConstantType>Bool</ConstantType>
+        <ConstantValue>True</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="LiteralConstant" UId="27">
+      <Constant>
+        <ConstantType>Bool</ConstantType>
+        <ConstantValue>True</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="LiteralConstant" UId="28">
+      <Constant>
+        <ConstantType>Bool</ConstantType>
+        <ConstantValue>True</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="LiteralConstant" UId="29">
+      <Constant>
+        <ConstantType>Bool</ConstantType>
+        <ConstantValue>True</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="LiteralConstant" UId="30">
+      <Constant>
+        <ConstantType>Bool</ConstantType>
+        <ConstantValue>True</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="LiteralConstant" UId="31">
+      <Constant>
+        <ConstantType>Bool</ConstantType>
+        <ConstantValue>True</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="GlobalVariable" UId="32">
+      <Symbol>
+        <Component Name="数据块_2" />
+        <Component Name="F-DI_A21_3" />
+      </Symbol>
+    </Access>
+    <Call UId="33">
+      <CallInfo Name="F_ChannelDia" BlockType="FC">
+        <Parameter Name="PASS_OUT" Section="Input" Type="Bool" />
+        <Parameter Name="QBAD" Section="Input" Type="Bool" />
+        <Parameter Name="ACK_REQ" Section="Input" Type="Bool" />
+        <Parameter Name="Channel0_ValueStatus" Section="Input" Type="Bool" />
+        <Parameter Name="Channel1_ValueStatus" Section="Input" Type="Bool" />
+        <Parameter Name="Channel2_ValueStatus" Section="Input" Type="Bool" />
+        <Parameter Name="Channel3_ValueStatus" Section="Input" Type="Bool" />
+        <Parameter Name="Channel4_ValueStatus" Section="Input" Type="Bool" />
+        <Parameter Name="Channel5_ValueStatus" Section="Input" Type="Bool" />
+        <Parameter Name="Channel6_ValueStatus" Section="Input" Type="Bool" />
+        <Parameter Name="Channel7_ValueStatus" Section="Input" Type="Bool" />
+        <Parameter Name="FIODia" Section="Output" Type="&quot;FIODia&quot;" />
+      </CallInfo>
+    </Call>
+  </Parts>
+  <Wires>
+    <Wire UId="34">
+      <IdentCon UId="21" />
+      <NameCon UId="33" Name="PASS_OUT" />
+    </Wire>
+    <Wire UId="35">
+      <IdentCon UId="22" />
+      <NameCon UId="33" Name="QBAD" />
+    </Wire>
+    <Wire UId="36">
+      <IdentCon UId="23" />
+      <NameCon UId="33" Name="ACK_REQ" />
+    </Wire>
+    <Wire UId="37">
+      <IdentCon UId="24" />
+      <NameCon UId="33" Name="Channel0_ValueStatus" />
+    </Wire>
+    <Wire UId="38">
+      <IdentCon UId="25" />
+      <NameCon UId="33" Name="Channel1_ValueStatus" />
+    </Wire>
+    <Wire UId="39">
+      <IdentCon UId="26" />
+      <NameCon UId="33" Name="Channel2_ValueStatus" />
+    </Wire>
+    <Wire UId="40">
+      <IdentCon UId="27" />
+      <NameCon UId="33" Name="Channel3_ValueStatus" />
+    </Wire>
+    <Wire UId="41">
+      <IdentCon UId="28" />
+      <NameCon UId="33" Name="Channel4_ValueStatus" />
+    </Wire>
+    <Wire UId="42">
+      <IdentCon UId="29" />
+      <NameCon UId="33" Name="Channel5_ValueStatus" />
+    </Wire>
+    <Wire UId="43">
+      <IdentCon UId="30" />
+      <NameCon UId="33" Name="Channel6_ValueStatus" />
+    </Wire>
+    <Wire UId="44">
+      <IdentCon UId="31" />
+      <NameCon UId="33" Name="Channel7_ValueStatus" />
+    </Wire>
+    <Wire UId="45">
+      <NameCon UId="33" Name="FIODia" />
+      <IdentCon UId="32" />
+    </Wire>
+    <Wire UId="46">
+      <Powerrail />
+      <NameCon UId="33" Name="en" />
+    </Wire>
+  </Wires>
+</FlgNet></NetworkSource>
+          <ProgrammingLanguage>F_LAD</ProgrammingLanguage>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="2C" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="2D" CompositionName="Items">
+                <AttributeList>
+                  <Culture>zh-CN</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+          <MultilingualText ID="2E" CompositionName="Title">
+            <ObjectList>
+              <MultilingualTextItem ID="2F" CompositionName="Items">
+                <AttributeList>
+                  <Culture>zh-CN</Culture>
+                  <Text>A21.3 诊断</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Blocks.CompileUnit>
+      <SW.Blocks.CompileUnit ID="30" CompositionName="CompileUnits">
+        <AttributeList>
+          <NetworkSource><FlgNet xmlns="http://www.siemens.com/automation/Openness/SW/NetworkSource/FlgNet/v4">
+  <Parts>
+    <Access Scope="GlobalVariable" UId="21">
+      <Symbol>
+        <Component Name="F00218_A21_4" />
+        <Component Name="PASS_OUT" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="22">
+      <Symbol>
+        <Component Name="F00218_A21_4" />
+        <Component Name="QBAD" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="23">
+      <Symbol>
+        <Component Name="F00218_A21_4" />
+        <Component Name="ACK_REQ" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="24">
+      <Symbol>
+        <Component Name="Room2_ES1_ValueStatus" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="25">
+      <Symbol>
+        <Component Name="Room2_ES2_ValueStatus" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="26">
+      <Symbol>
+        <Component Name="Room2_ES3_ValueStatus" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="27">
+      <Symbol>
+        <Component Name="Room2_ES4_ValueStatus" />
+      </Symbol>
+    </Access>
+    <Access Scope="LiteralConstant" UId="28">
+      <Constant>
+        <ConstantType>Bool</ConstantType>
+        <ConstantValue>True</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="LiteralConstant" UId="29">
+      <Constant>
+        <ConstantType>Bool</ConstantType>
+        <ConstantValue>True</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="LiteralConstant" UId="30">
+      <Constant>
+        <ConstantType>Bool</ConstantType>
+        <ConstantValue>True</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="LiteralConstant" UId="31">
+      <Constant>
+        <ConstantType>Bool</ConstantType>
+        <ConstantValue>True</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="GlobalVariable" UId="32">
+      <Symbol>
+        <Component Name="数据块_2" />
+        <Component Name="F-DI_A21_4" />
+      </Symbol>
+    </Access>
+    <Call UId="33">
+      <CallInfo Name="F_ChannelDia" BlockType="FC">
+        <Parameter Name="PASS_OUT" Section="Input" Type="Bool" />
+        <Parameter Name="QBAD" Section="Input" Type="Bool" />
+        <Parameter Name="ACK_REQ" Section="Input" Type="Bool" />
+        <Parameter Name="Channel0_ValueStatus" Section="Input" Type="Bool" />
+        <Parameter Name="Channel1_ValueStatus" Section="Input" Type="Bool" />
+        <Parameter Name="Channel2_ValueStatus" Section="Input" Type="Bool" />
+        <Parameter Name="Channel3_ValueStatus" Section="Input" Type="Bool" />
+        <Parameter Name="Channel4_ValueStatus" Section="Input" Type="Bool" />
+        <Parameter Name="Channel5_ValueStatus" Section="Input" Type="Bool" />
+        <Parameter Name="Channel6_ValueStatus" Section="Input" Type="Bool" />
+        <Parameter Name="Channel7_ValueStatus" Section="Input" Type="Bool" />
+        <Parameter Name="FIODia" Section="Output" Type="&quot;FIODia&quot;" />
+      </CallInfo>
+    </Call>
+  </Parts>
+  <Wires>
+    <Wire UId="34">
+      <IdentCon UId="21" />
+      <NameCon UId="33" Name="PASS_OUT" />
+    </Wire>
+    <Wire UId="35">
+      <IdentCon UId="22" />
+      <NameCon UId="33" Name="QBAD" />
+    </Wire>
+    <Wire UId="36">
+      <IdentCon UId="23" />
+      <NameCon UId="33" Name="ACK_REQ" />
+    </Wire>
+    <Wire UId="37">
+      <IdentCon UId="24" />
+      <NameCon UId="33" Name="Channel0_ValueStatus" />
+    </Wire>
+    <Wire UId="38">
+      <IdentCon UId="25" />
+      <NameCon UId="33" Name="Channel1_ValueStatus" />
+    </Wire>
+    <Wire UId="39">
+      <IdentCon UId="26" />
+      <NameCon UId="33" Name="Channel2_ValueStatus" />
+    </Wire>
+    <Wire UId="40">
+      <IdentCon UId="27" />
+      <NameCon UId="33" Name="Channel3_ValueStatus" />
+    </Wire>
+    <Wire UId="41">
+      <IdentCon UId="28" />
+      <NameCon UId="33" Name="Channel4_ValueStatus" />
+    </Wire>
+    <Wire UId="42">
+      <IdentCon UId="29" />
+      <NameCon UId="33" Name="Channel5_ValueStatus" />
+    </Wire>
+    <Wire UId="43">
+      <IdentCon UId="30" />
+      <NameCon UId="33" Name="Channel6_ValueStatus" />
+    </Wire>
+    <Wire UId="44">
+      <IdentCon UId="31" />
+      <NameCon UId="33" Name="Channel7_ValueStatus" />
+    </Wire>
+    <Wire UId="45">
+      <NameCon UId="33" Name="FIODia" />
+      <IdentCon UId="32" />
+    </Wire>
+    <Wire UId="46">
+      <Powerrail />
+      <NameCon UId="33" Name="en" />
+    </Wire>
+  </Wires>
+</FlgNet></NetworkSource>
+          <ProgrammingLanguage>F_LAD</ProgrammingLanguage>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="31" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="32" CompositionName="Items">
+                <AttributeList>
+                  <Culture>zh-CN</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+          <MultilingualText ID="33" CompositionName="Title">
+            <ObjectList>
+              <MultilingualTextItem ID="34" CompositionName="Items">
+                <AttributeList>
+                  <Culture>zh-CN</Culture>
+                  <Text>A21.4 诊断</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Blocks.CompileUnit>
+      <SW.Blocks.CompileUnit ID="35" CompositionName="CompileUnits">
+        <AttributeList>
+          <NetworkSource><FlgNet xmlns="http://www.siemens.com/automation/Openness/SW/NetworkSource/FlgNet/v4">
+  <Parts>
+    <Access Scope="GlobalVariable" UId="21">
+      <Symbol>
+        <Component Name="F00224_A21_5" />
+        <Component Name="PASS_OUT" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="22">
+      <Symbol>
+        <Component Name="F00224_A21_5" />
+        <Component Name="QBAD" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="23">
+      <Symbol>
+        <Component Name="F00224_A21_5" />
+        <Component Name="ACK_REQ" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="24">
+      <Symbol>
+        <Component Name="Room2_ES5_ValueStatus" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="25">
+      <Symbol>
+        <Component Name="Room2Control_ES6_ValueStatus" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="26">
+      <Symbol>
+        <Component Name="Room2_Key1.1_ValueStatus" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="27">
+      <Symbol>
+        <Component Name="Room2Control_Key1.1_ValueStatus" />
+      </Symbol>
+    </Access>
+    <Access Scope="LiteralConstant" UId="28">
+      <Constant>
+        <ConstantType>Bool</ConstantType>
+        <ConstantValue>True</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="LiteralConstant" UId="29">
+      <Constant>
+        <ConstantType>Bool</ConstantType>
+        <ConstantValue>True</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="GlobalVariable" UId="30">
+      <Symbol>
+        <Component Name="Room2_Key1.2_ValueStatus" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="31">
+      <Symbol>
+        <Component Name="Room2Control_Key1.2_ValueStatus" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="32">
+      <Symbol>
+        <Component Name="数据块_2" />
+        <Component Name="F-DI_A21_5" />
+      </Symbol>
+    </Access>
+    <Call UId="33">
+      <CallInfo Name="F_ChannelDia" BlockType="FC">
+        <Parameter Name="PASS_OUT" Section="Input" Type="Bool" />
+        <Parameter Name="QBAD" Section="Input" Type="Bool" />
+        <Parameter Name="ACK_REQ" Section="Input" Type="Bool" />
+        <Parameter Name="Channel0_ValueStatus" Section="Input" Type="Bool" />
+        <Parameter Name="Channel1_ValueStatus" Section="Input" Type="Bool" />
+        <Parameter Name="Channel2_ValueStatus" Section="Input" Type="Bool" />
+        <Parameter Name="Channel3_ValueStatus" Section="Input" Type="Bool" />
+        <Parameter Name="Channel4_ValueStatus" Section="Input" Type="Bool" />
+        <Parameter Name="Channel5_ValueStatus" Section="Input" Type="Bool" />
+        <Parameter Name="Channel6_ValueStatus" Section="Input" Type="Bool" />
+        <Parameter Name="Channel7_ValueStatus" Section="Input" Type="Bool" />
+        <Parameter Name="FIODia" Section="Output" Type="&quot;FIODia&quot;" />
+      </CallInfo>
+    </Call>
+  </Parts>
+  <Wires>
+    <Wire UId="34">
+      <IdentCon UId="21" />
+      <NameCon UId="33" Name="PASS_OUT" />
+    </Wire>
+    <Wire UId="35">
+      <IdentCon UId="22" />
+      <NameCon UId="33" Name="QBAD" />
+    </Wire>
+    <Wire UId="36">
+      <IdentCon UId="23" />
+      <NameCon UId="33" Name="ACK_REQ" />
+    </Wire>
+    <Wire UId="37">
+      <IdentCon UId="24" />
+      <NameCon UId="33" Name="Channel0_ValueStatus" />
+    </Wire>
+    <Wire UId="38">
+      <IdentCon UId="25" />
+      <NameCon UId="33" Name="Channel1_ValueStatus" />
+    </Wire>
+    <Wire UId="39">
+      <IdentCon UId="26" />
+      <NameCon UId="33" Name="Channel2_ValueStatus" />
+    </Wire>
+    <Wire UId="40">
+      <IdentCon UId="27" />
+      <NameCon UId="33" Name="Channel3_ValueStatus" />
+    </Wire>
+    <Wire UId="41">
+      <IdentCon UId="28" />
+      <NameCon UId="33" Name="Channel4_ValueStatus" />
+    </Wire>
+    <Wire UId="42">
+      <IdentCon UId="29" />
+      <NameCon UId="33" Name="Channel5_ValueStatus" />
+    </Wire>
+    <Wire UId="43">
+      <IdentCon UId="30" />
+      <NameCon UId="33" Name="Channel6_ValueStatus" />
+    </Wire>
+    <Wire UId="44">
+      <IdentCon UId="31" />
+      <NameCon UId="33" Name="Channel7_ValueStatus" />
+    </Wire>
+    <Wire UId="45">
+      <NameCon UId="33" Name="FIODia" />
+      <IdentCon UId="32" />
+    </Wire>
+    <Wire UId="46">
+      <Powerrail />
+      <NameCon UId="33" Name="en" />
+    </Wire>
+  </Wires>
+</FlgNet></NetworkSource>
+          <ProgrammingLanguage>F_LAD</ProgrammingLanguage>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="36" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="37" CompositionName="Items">
+                <AttributeList>
+                  <Culture>zh-CN</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+          <MultilingualText ID="38" CompositionName="Title">
+            <ObjectList>
+              <MultilingualTextItem ID="39" CompositionName="Items">
+                <AttributeList>
+                  <Culture>zh-CN</Culture>
+                  <Text>A21.5 诊断</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Blocks.CompileUnit>
+      <SW.Blocks.CompileUnit ID="3A" CompositionName="CompileUnits">
+        <AttributeList>
+          <NetworkSource><FlgNet xmlns="http://www.siemens.com/automation/Openness/SW/NetworkSource/FlgNet/v4">
+  <Parts>
+    <Access Scope="GlobalVariable" UId="21">
+      <Symbol>
+        <Component Name="F00230_A21_6" />
+        <Component Name="PASS_OUT" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="22">
+      <Symbol>
+        <Component Name="F00230_A21_6" />
+        <Component Name="QBAD" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="23">
+      <Symbol>
+        <Component Name="F00230_A21_6" />
+        <Component Name="ACK_REQ" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="24">
+      <Symbol>
+        <Component Name="Room2_door1.1_ValueStatus" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="25">
+      <Symbol>
+        <Component Name="Room2_door1.2_ValueStatus" />
+      </Symbol>
+    </Access>
+    <Access Scope="LiteralConstant" UId="26">
+      <Constant>
+        <ConstantType>Bool</ConstantType>
+        <ConstantValue>True</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="LiteralConstant" UId="27">
+      <Constant>
+        <ConstantType>Bool</ConstantType>
+        <ConstantValue>True</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="LiteralConstant" UId="28">
+      <Constant>
+        <ConstantType>Bool</ConstantType>
+        <ConstantValue>True</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="LiteralConstant" UId="29">
+      <Constant>
+        <ConstantType>Bool</ConstantType>
+        <ConstantValue>True</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="LiteralConstant" UId="30">
+      <Constant>
+        <ConstantType>Bool</ConstantType>
+        <ConstantValue>True</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="LiteralConstant" UId="31">
+      <Constant>
+        <ConstantType>Bool</ConstantType>
+        <ConstantValue>True</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="GlobalVariable" UId="32">
+      <Symbol>
+        <Component Name="数据块_2" />
+        <Component Name="F-DI_A21_6" />
+      </Symbol>
+    </Access>
+    <Call UId="33">
+      <CallInfo Name="F_ChannelDia" BlockType="FC">
+        <Parameter Name="PASS_OUT" Section="Input" Type="Bool" />
+        <Parameter Name="QBAD" Section="Input" Type="Bool" />
+        <Parameter Name="ACK_REQ" Section="Input" Type="Bool" />
+        <Parameter Name="Channel0_ValueStatus" Section="Input" Type="Bool" />
+        <Parameter Name="Channel1_ValueStatus" Section="Input" Type="Bool" />
+        <Parameter Name="Channel2_ValueStatus" Section="Input" Type="Bool" />
+        <Parameter Name="Channel3_ValueStatus" Section="Input" Type="Bool" />
+        <Parameter Name="Channel4_ValueStatus" Section="Input" Type="Bool" />
+        <Parameter Name="Channel5_ValueStatus" Section="Input" Type="Bool" />
+        <Parameter Name="Channel6_ValueStatus" Section="Input" Type="Bool" />
+        <Parameter Name="Channel7_ValueStatus" Section="Input" Type="Bool" />
+        <Parameter Name="FIODia" Section="Output" Type="&quot;FIODia&quot;" />
+      </CallInfo>
+    </Call>
+  </Parts>
+  <Wires>
+    <Wire UId="34">
+      <IdentCon UId="21" />
+      <NameCon UId="33" Name="PASS_OUT" />
+    </Wire>
+    <Wire UId="35">
+      <IdentCon UId="22" />
+      <NameCon UId="33" Name="QBAD" />
+    </Wire>
+    <Wire UId="36">
+      <IdentCon UId="23" />
+      <NameCon UId="33" Name="ACK_REQ" />
+    </Wire>
+    <Wire UId="37">
+      <IdentCon UId="24" />
+      <NameCon UId="33" Name="Channel0_ValueStatus" />
+    </Wire>
+    <Wire UId="38">
+      <IdentCon UId="25" />
+      <NameCon UId="33" Name="Channel1_ValueStatus" />
+    </Wire>
+    <Wire UId="39">
+      <IdentCon UId="26" />
+      <NameCon UId="33" Name="Channel2_ValueStatus" />
+    </Wire>
+    <Wire UId="40">
+      <IdentCon UId="27" />
+      <NameCon UId="33" Name="Channel3_ValueStatus" />
+    </Wire>
+    <Wire UId="41">
+      <IdentCon UId="28" />
+      <NameCon UId="33" Name="Channel4_ValueStatus" />
+    </Wire>
+    <Wire UId="42">
+      <IdentCon UId="29" />
+      <NameCon UId="33" Name="Channel5_ValueStatus" />
+    </Wire>
+    <Wire UId="43">
+      <IdentCon UId="30" />
+      <NameCon UId="33" Name="Channel6_ValueStatus" />
+    </Wire>
+    <Wire UId="44">
+      <IdentCon UId="31" />
+      <NameCon UId="33" Name="Channel7_ValueStatus" />
+    </Wire>
+    <Wire UId="45">
+      <NameCon UId="33" Name="FIODia" />
+      <IdentCon UId="32" />
+    </Wire>
+    <Wire UId="46">
+      <Powerrail />
+      <NameCon UId="33" Name="en" />
+    </Wire>
+  </Wires>
+</FlgNet></NetworkSource>
+          <ProgrammingLanguage>F_LAD</ProgrammingLanguage>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="3B" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="3C" CompositionName="Items">
+                <AttributeList>
+                  <Culture>zh-CN</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+          <MultilingualText ID="3D" CompositionName="Title">
+            <ObjectList>
+              <MultilingualTextItem ID="3E" CompositionName="Items">
+                <AttributeList>
+                  <Culture>zh-CN</Culture>
+                  <Text>A21.6 诊断</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Blocks.CompileUnit>
+      <SW.Blocks.CompileUnit ID="3F" CompositionName="CompileUnits">
+        <AttributeList>
+          <NetworkSource><FlgNet xmlns="http://www.siemens.com/automation/Openness/SW/NetworkSource/FlgNet/v4">
+  <Parts>
+    <Access Scope="GlobalVariable" UId="21">
+      <Symbol>
+        <Component Name="F00236_A21_7" />
+        <Component Name="PASS_OUT" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="22">
+      <Symbol>
+        <Component Name="F00236_A21_7" />
+        <Component Name="QBAD" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="23">
+      <Symbol>
+        <Component Name="F00236_A21_7" />
+        <Component Name="ACK_REQ" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="24">
+      <Symbol>
+        <Component Name="ACC_ES1_ValueStatus" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="25">
+      <Symbol>
+        <Component Name="ACC_ES2_ValueStatus" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="26">
+      <Symbol>
+        <Component Name="ACC_ES3_ValueStatus" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="27">
+      <Symbol>
+        <Component Name="ACC_ES4_ValueStatus" />
+      </Symbol>
+    </Access>
+    <Access Scope="LiteralConstant" UId="28">
+      <Constant>
+        <ConstantType>Bool</ConstantType>
+        <ConstantValue>True</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="LiteralConstant" UId="29">
+      <Constant>
+        <ConstantType>Bool</ConstantType>
+        <ConstantValue>True</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="LiteralConstant" UId="30">
+      <Constant>
+        <ConstantType>Bool</ConstantType>
+        <ConstantValue>True</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="LiteralConstant" UId="31">
+      <Constant>
+        <ConstantType>Bool</ConstantType>
+        <ConstantValue>True</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="GlobalVariable" UId="32">
+      <Symbol>
+        <Component Name="数据块_2" />
+        <Component Name="F-DI_A21_7" />
+      </Symbol>
+    </Access>
+    <Call UId="33">
+      <CallInfo Name="F_ChannelDia" BlockType="FC">
+        <Parameter Name="PASS_OUT" Section="Input" Type="Bool" />
+        <Parameter Name="QBAD" Section="Input" Type="Bool" />
+        <Parameter Name="ACK_REQ" Section="Input" Type="Bool" />
+        <Parameter Name="Channel0_ValueStatus" Section="Input" Type="Bool" />
+        <Parameter Name="Channel1_ValueStatus" Section="Input" Type="Bool" />
+        <Parameter Name="Channel2_ValueStatus" Section="Input" Type="Bool" />
+        <Parameter Name="Channel3_ValueStatus" Section="Input" Type="Bool" />
+        <Parameter Name="Channel4_ValueStatus" Section="Input" Type="Bool" />
+        <Parameter Name="Channel5_ValueStatus" Section="Input" Type="Bool" />
+        <Parameter Name="Channel6_ValueStatus" Section="Input" Type="Bool" />
+        <Parameter Name="Channel7_ValueStatus" Section="Input" Type="Bool" />
+        <Parameter Name="FIODia" Section="Output" Type="&quot;FIODia&quot;" />
+      </CallInfo>
+    </Call>
+  </Parts>
+  <Wires>
+    <Wire UId="34">
+      <IdentCon UId="21" />
+      <NameCon UId="33" Name="PASS_OUT" />
+    </Wire>
+    <Wire UId="35">
+      <IdentCon UId="22" />
+      <NameCon UId="33" Name="QBAD" />
+    </Wire>
+    <Wire UId="36">
+      <IdentCon UId="23" />
+      <NameCon UId="33" Name="ACK_REQ" />
+    </Wire>
+    <Wire UId="37">
+      <IdentCon UId="24" />
+      <NameCon UId="33" Name="Channel0_ValueStatus" />
+    </Wire>
+    <Wire UId="38">
+      <IdentCon UId="25" />
+      <NameCon UId="33" Name="Channel1_ValueStatus" />
+    </Wire>
+    <Wire UId="39">
+      <IdentCon UId="26" />
+      <NameCon UId="33" Name="Channel2_ValueStatus" />
+    </Wire>
+    <Wire UId="40">
+      <IdentCon UId="27" />
+      <NameCon UId="33" Name="Channel3_ValueStatus" />
+    </Wire>
+    <Wire UId="41">
+      <IdentCon UId="28" />
+      <NameCon UId="33" Name="Channel4_ValueStatus" />
+    </Wire>
+    <Wire UId="42">
+      <IdentCon UId="29" />
+      <NameCon UId="33" Name="Channel5_ValueStatus" />
+    </Wire>
+    <Wire UId="43">
+      <IdentCon UId="30" />
+      <NameCon UId="33" Name="Channel6_ValueStatus" />
+    </Wire>
+    <Wire UId="44">
+      <IdentCon UId="31" />
+      <NameCon UId="33" Name="Channel7_ValueStatus" />
+    </Wire>
+    <Wire UId="45">
+      <NameCon UId="33" Name="FIODia" />
+      <IdentCon UId="32" />
+    </Wire>
+    <Wire UId="46">
+      <Powerrail />
+      <NameCon UId="33" Name="en" />
+    </Wire>
+  </Wires>
+</FlgNet></NetworkSource>
+          <ProgrammingLanguage>F_LAD</ProgrammingLanguage>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="40" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="41" CompositionName="Items">
+                <AttributeList>
+                  <Culture>zh-CN</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+          <MultilingualText ID="42" CompositionName="Title">
+            <ObjectList>
+              <MultilingualTextItem ID="43" CompositionName="Items">
+                <AttributeList>
+                  <Culture>zh-CN</Culture>
+                  <Text>A21.7 诊断</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Blocks.CompileUnit>
+      <SW.Blocks.CompileUnit ID="44" CompositionName="CompileUnits">
+        <AttributeList>
+          <NetworkSource><FlgNet xmlns="http://www.siemens.com/automation/Openness/SW/NetworkSource/FlgNet/v4">
+  <Parts>
+    <Access Scope="GlobalVariable" UId="21">
+      <Symbol>
+        <Component Name="F00242_A21_8" />
+        <Component Name="PASS_OUT" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="22">
+      <Symbol>
+        <Component Name="F00242_A21_8" />
+        <Component Name="QBAD" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="23">
+      <Symbol>
+        <Component Name="F00242_A21_8" />
+        <Component Name="ACK_REQ" />
+      </Symbol>
+    </Access>
+    <Access Scope="LiteralConstant" UId="24">
+      <Constant>
+        <ConstantType>Bool</ConstantType>
+        <ConstantValue>True</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="LiteralConstant" UId="25">
+      <Constant>
+        <ConstantType>Bool</ConstantType>
+        <ConstantValue>True</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="GlobalVariable" UId="26">
+      <Symbol>
+        <Component Name="ACC_Key1.1_ValueStatus" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="27">
+      <Symbol>
+        <Component Name="ACCControl_Key1.1_ValueStatus" />
+      </Symbol>
+    </Access>
+    <Access Scope="LiteralConstant" UId="28">
+      <Constant>
+        <ConstantType>Bool</ConstantType>
+        <ConstantValue>True</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="LiteralConstant" UId="29">
+      <Constant>
+        <ConstantType>Bool</ConstantType>
+        <ConstantValue>True</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="GlobalVariable" UId="30">
+      <Symbol>
+        <Component Name="ACC_Key1.2_ValueStatus" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="31">
+      <Symbol>
+        <Component Name="ACCControl_Key1.2_ValueStatus" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="32">
+      <Symbol>
+        <Component Name="数据块_2" />
+        <Component Name="F-DI_A21_8" />
+      </Symbol>
+    </Access>
+    <Call UId="33">
+      <CallInfo Name="F_ChannelDia" BlockType="FC">
+        <Parameter Name="PASS_OUT" Section="Input" Type="Bool" />
+        <Parameter Name="QBAD" Section="Input" Type="Bool" />
+        <Parameter Name="ACK_REQ" Section="Input" Type="Bool" />
+        <Parameter Name="Channel0_ValueStatus" Section="Input" Type="Bool" />
+        <Parameter Name="Channel1_ValueStatus" Section="Input" Type="Bool" />
+        <Parameter Name="Channel2_ValueStatus" Section="Input" Type="Bool" />
+        <Parameter Name="Channel3_ValueStatus" Section="Input" Type="Bool" />
+        <Parameter Name="Channel4_ValueStatus" Section="Input" Type="Bool" />
+        <Parameter Name="Channel5_ValueStatus" Section="Input" Type="Bool" />
+        <Parameter Name="Channel6_ValueStatus" Section="Input" Type="Bool" />
+        <Parameter Name="Channel7_ValueStatus" Section="Input" Type="Bool" />
+        <Parameter Name="FIODia" Section="Output" Type="&quot;FIODia&quot;" />
+      </CallInfo>
+    </Call>
+  </Parts>
+  <Wires>
+    <Wire UId="34">
+      <IdentCon UId="21" />
+      <NameCon UId="33" Name="PASS_OUT" />
+    </Wire>
+    <Wire UId="35">
+      <IdentCon UId="22" />
+      <NameCon UId="33" Name="QBAD" />
+    </Wire>
+    <Wire UId="36">
+      <IdentCon UId="23" />
+      <NameCon UId="33" Name="ACK_REQ" />
+    </Wire>
+    <Wire UId="37">
+      <IdentCon UId="24" />
+      <NameCon UId="33" Name="Channel0_ValueStatus" />
+    </Wire>
+    <Wire UId="38">
+      <IdentCon UId="25" />
+      <NameCon UId="33" Name="Channel1_ValueStatus" />
+    </Wire>
+    <Wire UId="39">
+      <IdentCon UId="26" />
+      <NameCon UId="33" Name="Channel2_ValueStatus" />
+    </Wire>
+    <Wire UId="40">
+      <IdentCon UId="27" />
+      <NameCon UId="33" Name="Channel3_ValueStatus" />
+    </Wire>
+    <Wire UId="41">
+      <IdentCon UId="28" />
+      <NameCon UId="33" Name="Channel4_ValueStatus" />
+    </Wire>
+    <Wire UId="42">
+      <IdentCon UId="29" />
+      <NameCon UId="33" Name="Channel5_ValueStatus" />
+    </Wire>
+    <Wire UId="43">
+      <IdentCon UId="30" />
+      <NameCon UId="33" Name="Channel6_ValueStatus" />
+    </Wire>
+    <Wire UId="44">
+      <IdentCon UId="31" />
+      <NameCon UId="33" Name="Channel7_ValueStatus" />
+    </Wire>
+    <Wire UId="45">
+      <NameCon UId="33" Name="FIODia" />
+      <IdentCon UId="32" />
+    </Wire>
+    <Wire UId="46">
+      <Powerrail />
+      <NameCon UId="33" Name="en" />
+    </Wire>
+  </Wires>
+</FlgNet></NetworkSource>
+          <ProgrammingLanguage>F_LAD</ProgrammingLanguage>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="45" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="46" CompositionName="Items">
+                <AttributeList>
+                  <Culture>zh-CN</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+          <MultilingualText ID="47" CompositionName="Title">
+            <ObjectList>
+              <MultilingualTextItem ID="48" CompositionName="Items">
+                <AttributeList>
+                  <Culture>zh-CN</Culture>
+                  <Text>A21.8 诊断</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Blocks.CompileUnit>
+      <SW.Blocks.CompileUnit ID="49" CompositionName="CompileUnits">
+        <AttributeList>
+          <NetworkSource><FlgNet xmlns="http://www.siemens.com/automation/Openness/SW/NetworkSource/FlgNet/v4">
+  <Parts>
+    <Access Scope="GlobalVariable" UId="21">
+      <Symbol>
+        <Component Name="F00248_A21_9" />
+        <Component Name="PASS_OUT" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="22">
+      <Symbol>
+        <Component Name="F00248_A21_9" />
+        <Component Name="QBAD" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="23">
+      <Symbol>
+        <Component Name="F00248_A21_9" />
+        <Component Name="ACK_REQ" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="24">
+      <Symbol>
+        <Component Name="ACC_door1.1_ValueStatus" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="25">
+      <Symbol>
+        <Component Name="ACC_door2.1_ValueStatus" />
+      </Symbol>
+    </Access>
+    <Access Scope="LiteralConstant" UId="26">
+      <Constant>
+        <ConstantType>Bool</ConstantType>
+        <ConstantValue>True</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="LiteralConstant" UId="27">
+      <Constant>
+        <ConstantType>Bool</ConstantType>
+        <ConstantValue>True</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="GlobalVariable" UId="28">
+      <Symbol>
+        <Component Name="ACC_door1.2_ValueStatus" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="29">
+      <Symbol>
+        <Component Name="ACC_door2.2_ValueStatus" />
+      </Symbol>
+    </Access>
+    <Access Scope="LiteralConstant" UId="30">
+      <Constant>
+        <ConstantType>Bool</ConstantType>
+        <ConstantValue>True</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="LiteralConstant" UId="31">
+      <Constant>
+        <ConstantType>Bool</ConstantType>
+        <ConstantValue>True</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="GlobalVariable" UId="32">
+      <Symbol>
+        <Component Name="数据块_2" />
+        <Component Name="F-DI_A21_9" />
+      </Symbol>
+    </Access>
+    <Call UId="33">
+      <CallInfo Name="F_ChannelDia" BlockType="FC">
+        <Parameter Name="PASS_OUT" Section="Input" Type="Bool" />
+        <Parameter Name="QBAD" Section="Input" Type="Bool" />
+        <Parameter Name="ACK_REQ" Section="Input" Type="Bool" />
+        <Parameter Name="Channel0_ValueStatus" Section="Input" Type="Bool" />
+        <Parameter Name="Channel1_ValueStatus" Section="Input" Type="Bool" />
+        <Parameter Name="Channel2_ValueStatus" Section="Input" Type="Bool" />
+        <Parameter Name="Channel3_ValueStatus" Section="Input" Type="Bool" />
+        <Parameter Name="Channel4_ValueStatus" Section="Input" Type="Bool" />
+        <Parameter Name="Channel5_ValueStatus" Section="Input" Type="Bool" />
+        <Parameter Name="Channel6_ValueStatus" Section="Input" Type="Bool" />
+        <Parameter Name="Channel7_ValueStatus" Section="Input" Type="Bool" />
+        <Parameter Name="FIODia" Section="Output" Type="&quot;FIODia&quot;" />
+      </CallInfo>
+    </Call>
+  </Parts>
+  <Wires>
+    <Wire UId="34">
+      <IdentCon UId="21" />
+      <NameCon UId="33" Name="PASS_OUT" />
+    </Wire>
+    <Wire UId="35">
+      <IdentCon UId="22" />
+      <NameCon UId="33" Name="QBAD" />
+    </Wire>
+    <Wire UId="36">
+      <IdentCon UId="23" />
+      <NameCon UId="33" Name="ACK_REQ" />
+    </Wire>
+    <Wire UId="37">
+      <IdentCon UId="24" />
+      <NameCon UId="33" Name="Channel0_ValueStatus" />
+    </Wire>
+    <Wire UId="38">
+      <IdentCon UId="25" />
+      <NameCon UId="33" Name="Channel1_ValueStatus" />
+    </Wire>
+    <Wire UId="39">
+      <IdentCon UId="26" />
+      <NameCon UId="33" Name="Channel2_ValueStatus" />
+    </Wire>
+    <Wire UId="40">
+      <IdentCon UId="27" />
+      <NameCon UId="33" Name="Channel3_ValueStatus" />
+    </Wire>
+    <Wire UId="41">
+      <IdentCon UId="28" />
+      <NameCon UId="33" Name="Channel4_ValueStatus" />
+    </Wire>
+    <Wire UId="42">
+      <IdentCon UId="29" />
+      <NameCon UId="33" Name="Channel5_ValueStatus" />
+    </Wire>
+    <Wire UId="43">
+      <IdentCon UId="30" />
+      <NameCon UId="33" Name="Channel6_ValueStatus" />
+    </Wire>
+    <Wire UId="44">
+      <IdentCon UId="31" />
+      <NameCon UId="33" Name="Channel7_ValueStatus" />
+    </Wire>
+    <Wire UId="45">
+      <NameCon UId="33" Name="FIODia" />
+      <IdentCon UId="32" />
+    </Wire>
+    <Wire UId="46">
+      <Powerrail />
+      <NameCon UId="33" Name="en" />
+    </Wire>
+  </Wires>
+</FlgNet></NetworkSource>
+          <ProgrammingLanguage>F_LAD</ProgrammingLanguage>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="4A" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="4B" CompositionName="Items">
+                <AttributeList>
+                  <Culture>zh-CN</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+          <MultilingualText ID="4C" CompositionName="Title">
+            <ObjectList>
+              <MultilingualTextItem ID="4D" CompositionName="Items">
+                <AttributeList>
+                  <Culture>zh-CN</Culture>
+                  <Text>A21.9 诊断</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Blocks.CompileUnit>
+      <SW.Blocks.CompileUnit ID="4E" CompositionName="CompileUnits">
+        <AttributeList>
+          <NetworkSource><FlgNet xmlns="http://www.siemens.com/automation/Openness/SW/NetworkSource/FlgNet/v4">
+  <Parts>
+    <Access Scope="GlobalVariable" UId="21">
+      <Symbol>
+        <Component Name="F00254_A21_10" />
+        <Component Name="PASS_OUT" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="22">
+      <Symbol>
+        <Component Name="F00254_A21_10" />
+        <Component Name="QBAD" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="23">
+      <Symbol>
+        <Component Name="F00254_A21_10" />
+        <Component Name="ACK_REQ" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="24">
+      <Symbol>
+        <Component Name="VerticalBeam_ES1_ValueStatus" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="25">
+      <Symbol>
+        <Component Name="VerticalBeam_ES2_ValueStatus" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="26">
+      <Symbol>
+        <Component Name="VerticalBeam_ES3_ValueStatus" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="27">
+      <Symbol>
+        <Component Name="VerticalBeam_ES4_ValueStatus" />
+      </Symbol>
+    </Access>
+    <Access Scope="LiteralConstant" UId="28">
+      <Constant>
+        <ConstantType>Bool</ConstantType>
+        <ConstantValue>True</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="LiteralConstant" UId="29">
+      <Constant>
+        <ConstantType>Bool</ConstantType>
+        <ConstantValue>True</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="LiteralConstant" UId="30">
+      <Constant>
+        <ConstantType>Bool</ConstantType>
+        <ConstantValue>True</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="LiteralConstant" UId="31">
+      <Constant>
+        <ConstantType>Bool</ConstantType>
+        <ConstantValue>True</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="GlobalVariable" UId="32">
+      <Symbol>
+        <Component Name="数据块_2" />
+        <Component Name="F-DI_A21_10" />
+      </Symbol>
+    </Access>
+    <Call UId="33">
+      <CallInfo Name="F_ChannelDia" BlockType="FC">
+        <Parameter Name="PASS_OUT" Section="Input" Type="Bool" />
+        <Parameter Name="QBAD" Section="Input" Type="Bool" />
+        <Parameter Name="ACK_REQ" Section="Input" Type="Bool" />
+        <Parameter Name="Channel0_ValueStatus" Section="Input" Type="Bool" />
+        <Parameter Name="Channel1_ValueStatus" Section="Input" Type="Bool" />
+        <Parameter Name="Channel2_ValueStatus" Section="Input" Type="Bool" />
+        <Parameter Name="Channel3_ValueStatus" Section="Input" Type="Bool" />
+        <Parameter Name="Channel4_ValueStatus" Section="Input" Type="Bool" />
+        <Parameter Name="Channel5_ValueStatus" Section="Input" Type="Bool" />
+        <Parameter Name="Channel6_ValueStatus" Section="Input" Type="Bool" />
+        <Parameter Name="Channel7_ValueStatus" Section="Input" Type="Bool" />
+        <Parameter Name="FIODia" Section="Output" Type="&quot;FIODia&quot;" />
+      </CallInfo>
+    </Call>
+  </Parts>
+  <Wires>
+    <Wire UId="34">
+      <IdentCon UId="21" />
+      <NameCon UId="33" Name="PASS_OUT" />
+    </Wire>
+    <Wire UId="35">
+      <IdentCon UId="22" />
+      <NameCon UId="33" Name="QBAD" />
+    </Wire>
+    <Wire UId="36">
+      <IdentCon UId="23" />
+      <NameCon UId="33" Name="ACK_REQ" />
+    </Wire>
+    <Wire UId="37">
+      <IdentCon UId="24" />
+      <NameCon UId="33" Name="Channel0_ValueStatus" />
+    </Wire>
+    <Wire UId="38">
+      <IdentCon UId="25" />
+      <NameCon UId="33" Name="Channel1_ValueStatus" />
+    </Wire>
+    <Wire UId="39">
+      <IdentCon UId="26" />
+      <NameCon UId="33" Name="Channel2_ValueStatus" />
+    </Wire>
+    <Wire UId="40">
+      <IdentCon UId="27" />
+      <NameCon UId="33" Name="Channel3_ValueStatus" />
+    </Wire>
+    <Wire UId="41">
+      <IdentCon UId="28" />
+      <NameCon UId="33" Name="Channel4_ValueStatus" />
+    </Wire>
+    <Wire UId="42">
+      <IdentCon UId="29" />
+      <NameCon UId="33" Name="Channel5_ValueStatus" />
+    </Wire>
+    <Wire UId="43">
+      <IdentCon UId="30" />
+      <NameCon UId="33" Name="Channel6_ValueStatus" />
+    </Wire>
+    <Wire UId="44">
+      <IdentCon UId="31" />
+      <NameCon UId="33" Name="Channel7_ValueStatus" />
+    </Wire>
+    <Wire UId="45">
+      <NameCon UId="33" Name="FIODia" />
+      <IdentCon UId="32" />
+    </Wire>
+    <Wire UId="46">
+      <Powerrail />
+      <NameCon UId="33" Name="en" />
+    </Wire>
+  </Wires>
+</FlgNet></NetworkSource>
+          <ProgrammingLanguage>F_LAD</ProgrammingLanguage>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="4F" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="50" CompositionName="Items">
+                <AttributeList>
+                  <Culture>zh-CN</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+          <MultilingualText ID="51" CompositionName="Title">
+            <ObjectList>
+              <MultilingualTextItem ID="52" CompositionName="Items">
+                <AttributeList>
+                  <Culture>zh-CN</Culture>
+                  <Text>A21.10 诊断</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Blocks.CompileUnit>
+      <SW.Blocks.CompileUnit ID="53" CompositionName="CompileUnits">
+        <AttributeList>
+          <NetworkSource><FlgNet xmlns="http://www.siemens.com/automation/Openness/SW/NetworkSource/FlgNet/v4">
+  <Parts>
+    <Access Scope="GlobalVariable" UId="21">
+      <Symbol>
+        <Component Name="F00260_A21_11" />
+        <Component Name="PASS_OUT" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="22">
+      <Symbol>
+        <Component Name="F00260_A21_11" />
+        <Component Name="QBAD" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="23">
+      <Symbol>
+        <Component Name="F00260_A21_11" />
+        <Component Name="ACK_REQ" />
+      </Symbol>
+    </Access>
+    <Access Scope="LiteralConstant" UId="24">
+      <Constant>
+        <ConstantType>Bool</ConstantType>
+        <ConstantValue>True</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="LiteralConstant" UId="25">
+      <Constant>
+        <ConstantType>Bool</ConstantType>
+        <ConstantValue>True</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="GlobalVariable" UId="26">
+      <Symbol>
+        <Component Name="VerticalBeam_Key1.1_ValueStatus" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="27">
+      <Symbol>
+        <Component Name="VerticalBeamControl_Key1.1_ValueStatus" />
+      </Symbol>
+    </Access>
+    <Access Scope="LiteralConstant" UId="28">
+      <Constant>
+        <ConstantType>Bool</ConstantType>
+        <ConstantValue>True</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="LiteralConstant" UId="29">
+      <Constant>
+        <ConstantType>Bool</ConstantType>
+        <ConstantValue>True</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="GlobalVariable" UId="30">
+      <Symbol>
+        <Component Name="VerticalBeam_Key1.2_ValueStatus" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="31">
+      <Symbol>
+        <Component Name="VerticalBeamControl_Key1.2_ValueStatus" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="32">
+      <Symbol>
+        <Component Name="数据块_2" />
+        <Component Name="F-DI_A21_11" />
+      </Symbol>
+    </Access>
+    <Call UId="33">
+      <CallInfo Name="F_ChannelDia" BlockType="FC">
+        <Parameter Name="PASS_OUT" Section="Input" Type="Bool" />
+        <Parameter Name="QBAD" Section="Input" Type="Bool" />
+        <Parameter Name="ACK_REQ" Section="Input" Type="Bool" />
+        <Parameter Name="Channel0_ValueStatus" Section="Input" Type="Bool" />
+        <Parameter Name="Channel1_ValueStatus" Section="Input" Type="Bool" />
+        <Parameter Name="Channel2_ValueStatus" Section="Input" Type="Bool" />
+        <Parameter Name="Channel3_ValueStatus" Section="Input" Type="Bool" />
+        <Parameter Name="Channel4_ValueStatus" Section="Input" Type="Bool" />
+        <Parameter Name="Channel5_ValueStatus" Section="Input" Type="Bool" />
+        <Parameter Name="Channel6_ValueStatus" Section="Input" Type="Bool" />
+        <Parameter Name="Channel7_ValueStatus" Section="Input" Type="Bool" />
+        <Parameter Name="FIODia" Section="Output" Type="&quot;FIODia&quot;" />
+      </CallInfo>
+    </Call>
+  </Parts>
+  <Wires>
+    <Wire UId="34">
+      <IdentCon UId="21" />
+      <NameCon UId="33" Name="PASS_OUT" />
+    </Wire>
+    <Wire UId="35">
+      <IdentCon UId="22" />
+      <NameCon UId="33" Name="QBAD" />
+    </Wire>
+    <Wire UId="36">
+      <IdentCon UId="23" />
+      <NameCon UId="33" Name="ACK_REQ" />
+    </Wire>
+    <Wire UId="37">
+      <IdentCon UId="24" />
+      <NameCon UId="33" Name="Channel0_ValueStatus" />
+    </Wire>
+    <Wire UId="38">
+      <IdentCon UId="25" />
+      <NameCon UId="33" Name="Channel1_ValueStatus" />
+    </Wire>
+    <Wire UId="39">
+      <IdentCon UId="26" />
+      <NameCon UId="33" Name="Channel2_ValueStatus" />
+    </Wire>
+    <Wire UId="40">
+      <IdentCon UId="27" />
+      <NameCon UId="33" Name="Channel3_ValueStatus" />
+    </Wire>
+    <Wire UId="41">
+      <IdentCon UId="28" />
+      <NameCon UId="33" Name="Channel4_ValueStatus" />
+    </Wire>
+    <Wire UId="42">
+      <IdentCon UId="29" />
+      <NameCon UId="33" Name="Channel5_ValueStatus" />
+    </Wire>
+    <Wire UId="43">
+      <IdentCon UId="30" />
+      <NameCon UId="33" Name="Channel6_ValueStatus" />
+    </Wire>
+    <Wire UId="44">
+      <IdentCon UId="31" />
+      <NameCon UId="33" Name="Channel7_ValueStatus" />
+    </Wire>
+    <Wire UId="45">
+      <NameCon UId="33" Name="FIODia" />
+      <IdentCon UId="32" />
+    </Wire>
+    <Wire UId="46">
+      <Powerrail />
+      <NameCon UId="33" Name="en" />
+    </Wire>
+  </Wires>
+</FlgNet></NetworkSource>
+          <ProgrammingLanguage>F_LAD</ProgrammingLanguage>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="54" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="55" CompositionName="Items">
+                <AttributeList>
+                  <Culture>zh-CN</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+          <MultilingualText ID="56" CompositionName="Title">
+            <ObjectList>
+              <MultilingualTextItem ID="57" CompositionName="Items">
+                <AttributeList>
+                  <Culture>zh-CN</Culture>
+                  <Text>A21.11 诊断</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Blocks.CompileUnit>
+      <SW.Blocks.CompileUnit ID="58" CompositionName="CompileUnits">
+        <AttributeList>
+          <NetworkSource><FlgNet xmlns="http://www.siemens.com/automation/Openness/SW/NetworkSource/FlgNet/v4">
+  <Parts>
+    <Access Scope="GlobalVariable" UId="21">
+      <Symbol>
+        <Component Name="F00266_A21_12" />
+        <Component Name="PASS_OUT" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="22">
+      <Symbol>
+        <Component Name="F00266_A21_12" />
+        <Component Name="QBAD" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="23">
+      <Symbol>
+        <Component Name="F00266_A21_12" />
+        <Component Name="ACK_REQ" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="24">
+      <Symbol>
+        <Component Name="VerticalBeam_door1.1_ValueStatus" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="25">
+      <Symbol>
+        <Component Name="VerticalBeam_door2.1_ValueStatus" />
+      </Symbol>
+    </Access>
+    <Access Scope="LiteralConstant" UId="26">
+      <Constant>
+        <ConstantType>Bool</ConstantType>
+        <ConstantValue>True</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="LiteralConstant" UId="27">
+      <Constant>
+        <ConstantType>Bool</ConstantType>
+        <ConstantValue>True</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="GlobalVariable" UId="28">
+      <Symbol>
+        <Component Name="VerticalBeam_door1.2_ValueStatus" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="29">
+      <Symbol>
+        <Component Name="VerticalBeam_door2.2_ValueStatus" />
+      </Symbol>
+    </Access>
+    <Access Scope="LiteralConstant" UId="30">
+      <Constant>
+        <ConstantType>Bool</ConstantType>
+        <ConstantValue>True</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="LiteralConstant" UId="31">
+      <Constant>
+        <ConstantType>Bool</ConstantType>
+        <ConstantValue>True</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="GlobalVariable" UId="32">
+      <Symbol>
+        <Component Name="数据块_2" />
+        <Component Name="F-DI_A21_12" />
+      </Symbol>
+    </Access>
+    <Call UId="33">
+      <CallInfo Name="F_ChannelDia" BlockType="FC">
+        <Parameter Name="PASS_OUT" Section="Input" Type="Bool" />
+        <Parameter Name="QBAD" Section="Input" Type="Bool" />
+        <Parameter Name="ACK_REQ" Section="Input" Type="Bool" />
+        <Parameter Name="Channel0_ValueStatus" Section="Input" Type="Bool" />
+        <Parameter Name="Channel1_ValueStatus" Section="Input" Type="Bool" />
+        <Parameter Name="Channel2_ValueStatus" Section="Input" Type="Bool" />
+        <Parameter Name="Channel3_ValueStatus" Section="Input" Type="Bool" />
+        <Parameter Name="Channel4_ValueStatus" Section="Input" Type="Bool" />
+        <Parameter Name="Channel5_ValueStatus" Section="Input" Type="Bool" />
+        <Parameter Name="Channel6_ValueStatus" Section="Input" Type="Bool" />
+        <Parameter Name="Channel7_ValueStatus" Section="Input" Type="Bool" />
+        <Parameter Name="FIODia" Section="Output" Type="&quot;FIODia&quot;" />
+      </CallInfo>
+    </Call>
+  </Parts>
+  <Wires>
+    <Wire UId="34">
+      <IdentCon UId="21" />
+      <NameCon UId="33" Name="PASS_OUT" />
+    </Wire>
+    <Wire UId="35">
+      <IdentCon UId="22" />
+      <NameCon UId="33" Name="QBAD" />
+    </Wire>
+    <Wire UId="36">
+      <IdentCon UId="23" />
+      <NameCon UId="33" Name="ACK_REQ" />
+    </Wire>
+    <Wire UId="37">
+      <IdentCon UId="24" />
+      <NameCon UId="33" Name="Channel0_ValueStatus" />
+    </Wire>
+    <Wire UId="38">
+      <IdentCon UId="25" />
+      <NameCon UId="33" Name="Channel1_ValueStatus" />
+    </Wire>
+    <Wire UId="39">
+      <IdentCon UId="26" />
+      <NameCon UId="33" Name="Channel2_ValueStatus" />
+    </Wire>
+    <Wire UId="40">
+      <IdentCon UId="27" />
+      <NameCon UId="33" Name="Channel3_ValueStatus" />
+    </Wire>
+    <Wire UId="41">
+      <IdentCon UId="28" />
+      <NameCon UId="33" Name="Channel4_ValueStatus" />
+    </Wire>
+    <Wire UId="42">
+      <IdentCon UId="29" />
+      <NameCon UId="33" Name="Channel5_ValueStatus" />
+    </Wire>
+    <Wire UId="43">
+      <IdentCon UId="30" />
+      <NameCon UId="33" Name="Channel6_ValueStatus" />
+    </Wire>
+    <Wire UId="44">
+      <IdentCon UId="31" />
+      <NameCon UId="33" Name="Channel7_ValueStatus" />
+    </Wire>
+    <Wire UId="45">
+      <NameCon UId="33" Name="FIODia" />
+      <IdentCon UId="32" />
+    </Wire>
+    <Wire UId="46">
+      <Powerrail />
+      <NameCon UId="33" Name="en" />
+    </Wire>
+  </Wires>
+</FlgNet></NetworkSource>
+          <ProgrammingLanguage>F_LAD</ProgrammingLanguage>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="59" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="5A" CompositionName="Items">
+                <AttributeList>
+                  <Culture>zh-CN</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+          <MultilingualText ID="5B" CompositionName="Title">
+            <ObjectList>
+              <MultilingualTextItem ID="5C" CompositionName="Items">
+                <AttributeList>
+                  <Culture>zh-CN</Culture>
+                  <Text>A21.12 诊断</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Blocks.CompileUnit>
+      <SW.Blocks.CompileUnit ID="5D" CompositionName="CompileUnits">
+        <AttributeList>
+          <NetworkSource><FlgNet xmlns="http://www.siemens.com/automation/Openness/SW/NetworkSource/FlgNet/v4">
+  <Parts>
+    <Access Scope="GlobalVariable" UId="21">
+      <Symbol>
+        <Component Name="F00400_A22_1" />
+        <Component Name="PASS_OUT" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="22">
+      <Symbol>
+        <Component Name="F00400_A22_1" />
+        <Component Name="QBAD" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="23">
+      <Symbol>
+        <Component Name="F00400_A22_1" />
+        <Component Name="ACK_REQ" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="24">
+      <Symbol>
+        <Component Name="ACC_Interlock1_ValueStatus" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="25">
+      <Symbol>
+        <Component Name="ACC_Interlock2_ValueStatus" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="26">
+      <Symbol>
+        <Component Name="RF_Interlock1_ValueStatus" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="27">
+      <Symbol>
+        <Component Name="RF_Interlock2_ValueStatus" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="28">
+      <Symbol>
+        <Component Name="IonSource_Interlock1_ValueStatus" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="29">
+      <Symbol>
+        <Component Name="IonSource_Interlock2_ValueStatus" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="30">
+      <Symbol>
+        <Component Name="MIS__Interlock1_ValueStatus" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="31">
+      <Symbol>
+        <Component Name="MIS__Interlock2_ValueStatus" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="32">
+      <Symbol>
+        <Component Name="数据块_2" />
+        <Component Name="F-DQ_A21_1" />
+      </Symbol>
+    </Access>
+    <Call UId="33">
+      <CallInfo Name="F_ChannelDia" BlockType="FC">
+        <Parameter Name="PASS_OUT" Section="Input" Type="Bool" />
+        <Parameter Name="QBAD" Section="Input" Type="Bool" />
+        <Parameter Name="ACK_REQ" Section="Input" Type="Bool" />
+        <Parameter Name="Channel0_ValueStatus" Section="Input" Type="Bool" />
+        <Parameter Name="Channel1_ValueStatus" Section="Input" Type="Bool" />
+        <Parameter Name="Channel2_ValueStatus" Section="Input" Type="Bool" />
+        <Parameter Name="Channel3_ValueStatus" Section="Input" Type="Bool" />
+        <Parameter Name="Channel4_ValueStatus" Section="Input" Type="Bool" />
+        <Parameter Name="Channel5_ValueStatus" Section="Input" Type="Bool" />
+        <Parameter Name="Channel6_ValueStatus" Section="Input" Type="Bool" />
+        <Parameter Name="Channel7_ValueStatus" Section="Input" Type="Bool" />
+        <Parameter Name="FIODia" Section="Output" Type="&quot;FIODia&quot;" />
+      </CallInfo>
+    </Call>
+  </Parts>
+  <Wires>
+    <Wire UId="34">
+      <IdentCon UId="21" />
+      <NameCon UId="33" Name="PASS_OUT" />
+    </Wire>
+    <Wire UId="35">
+      <IdentCon UId="22" />
+      <NameCon UId="33" Name="QBAD" />
+    </Wire>
+    <Wire UId="36">
+      <IdentCon UId="23" />
+      <NameCon UId="33" Name="ACK_REQ" />
+    </Wire>
+    <Wire UId="37">
+      <IdentCon UId="24" />
+      <NameCon UId="33" Name="Channel0_ValueStatus" />
+    </Wire>
+    <Wire UId="38">
+      <IdentCon UId="25" />
+      <NameCon UId="33" Name="Channel1_ValueStatus" />
+    </Wire>
+    <Wire UId="39">
+      <IdentCon UId="26" />
+      <NameCon UId="33" Name="Channel2_ValueStatus" />
+    </Wire>
+    <Wire UId="40">
+      <IdentCon UId="27" />
+      <NameCon UId="33" Name="Channel3_ValueStatus" />
+    </Wire>
+    <Wire UId="41">
+      <IdentCon UId="28" />
+      <NameCon UId="33" Name="Channel4_ValueStatus" />
+    </Wire>
+    <Wire UId="42">
+      <IdentCon UId="29" />
+      <NameCon UId="33" Name="Channel5_ValueStatus" />
+    </Wire>
+    <Wire UId="43">
+      <IdentCon UId="30" />
+      <NameCon UId="33" Name="Channel6_ValueStatus" />
+    </Wire>
+    <Wire UId="44">
+      <IdentCon UId="31" />
+      <NameCon UId="33" Name="Channel7_ValueStatus" />
+    </Wire>
+    <Wire UId="45">
+      <NameCon UId="33" Name="FIODia" />
+      <IdentCon UId="32" />
+    </Wire>
+    <Wire UId="46">
+      <Powerrail />
+      <NameCon UId="33" Name="en" />
+    </Wire>
+  </Wires>
+</FlgNet></NetworkSource>
+          <ProgrammingLanguage>F_LAD</ProgrammingLanguage>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="5E" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="5F" CompositionName="Items">
+                <AttributeList>
+                  <Culture>zh-CN</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+          <MultilingualText ID="60" CompositionName="Title">
+            <ObjectList>
+              <MultilingualTextItem ID="61" CompositionName="Items">
+                <AttributeList>
+                  <Culture>zh-CN</Culture>
+                  <Text>A22.1诊断</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Blocks.CompileUnit>
+      <SW.Blocks.CompileUnit ID="62" CompositionName="CompileUnits">
+        <AttributeList>
+          <NetworkSource><FlgNet xmlns="http://www.siemens.com/automation/Openness/SW/NetworkSource/FlgNet/v4">
+  <Parts>
+    <Access Scope="GlobalVariable" UId="21">
+      <Symbol>
+        <Component Name="F00406_A22_2" />
+        <Component Name="PASS_OUT" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="22">
+      <Symbol>
+        <Component Name="F00406_A22_2" />
+        <Component Name="QBAD" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="23">
+      <Symbol>
+        <Component Name="F00406_A22_2" />
+        <Component Name="ACK_REQ" />
+      </Symbol>
+    </Access>
+    <Access Scope="LiteralConstant" UId="24">
+      <Constant>
+        <ConstantType>Bool</ConstantType>
+        <ConstantValue>True</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="LiteralConstant" UId="25">
+      <Constant>
+        <ConstantType>Bool</ConstantType>
+        <ConstantValue>True</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="LiteralConstant" UId="26">
+      <Constant>
+        <ConstantType>Bool</ConstantType>
+        <ConstantValue>True</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="LiteralConstant" UId="27">
+      <Constant>
+        <ConstantType>Bool</ConstantType>
+        <ConstantValue>True</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="LiteralConstant" UId="28">
+      <Constant>
+        <ConstantType>Bool</ConstantType>
+        <ConstantValue>True</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="LiteralConstant" UId="29">
+      <Constant>
+        <ConstantType>Bool</ConstantType>
+        <ConstantValue>True</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="LiteralConstant" UId="30">
+      <Constant>
+        <ConstantType>Bool</ConstantType>
+        <ConstantValue>True</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="LiteralConstant" UId="31">
+      <Constant>
+        <ConstantType>Bool</ConstantType>
+        <ConstantValue>True</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="GlobalVariable" UId="32">
+      <Symbol>
+        <Component Name="数据块_2" />
+        <Component Name="F-DQ_A21_2" />
+      </Symbol>
+    </Access>
+    <Call UId="33">
+      <CallInfo Name="F_ChannelDia" BlockType="FC">
+        <Parameter Name="PASS_OUT" Section="Input" Type="Bool" />
+        <Parameter Name="QBAD" Section="Input" Type="Bool" />
+        <Parameter Name="ACK_REQ" Section="Input" Type="Bool" />
+        <Parameter Name="Channel0_ValueStatus" Section="Input" Type="Bool" />
+        <Parameter Name="Channel1_ValueStatus" Section="Input" Type="Bool" />
+        <Parameter Name="Channel2_ValueStatus" Section="Input" Type="Bool" />
+        <Parameter Name="Channel3_ValueStatus" Section="Input" Type="Bool" />
+        <Parameter Name="Channel4_ValueStatus" Section="Input" Type="Bool" />
+        <Parameter Name="Channel5_ValueStatus" Section="Input" Type="Bool" />
+        <Parameter Name="Channel6_ValueStatus" Section="Input" Type="Bool" />
+        <Parameter Name="Channel7_ValueStatus" Section="Input" Type="Bool" />
+        <Parameter Name="FIODia" Section="Output" Type="&quot;FIODia&quot;" />
+      </CallInfo>
+    </Call>
+  </Parts>
+  <Wires>
+    <Wire UId="34">
+      <IdentCon UId="21" />
+      <NameCon UId="33" Name="PASS_OUT" />
+    </Wire>
+    <Wire UId="35">
+      <IdentCon UId="22" />
+      <NameCon UId="33" Name="QBAD" />
+    </Wire>
+    <Wire UId="36">
+      <IdentCon UId="23" />
+      <NameCon UId="33" Name="ACK_REQ" />
+    </Wire>
+    <Wire UId="37">
+      <IdentCon UId="24" />
+      <NameCon UId="33" Name="Channel0_ValueStatus" />
+    </Wire>
+    <Wire UId="38">
+      <IdentCon UId="25" />
+      <NameCon UId="33" Name="Channel1_ValueStatus" />
+    </Wire>
+    <Wire UId="39">
+      <IdentCon UId="26" />
+      <NameCon UId="33" Name="Channel2_ValueStatus" />
+    </Wire>
+    <Wire UId="40">
+      <IdentCon UId="27" />
+      <NameCon UId="33" Name="Channel3_ValueStatus" />
+    </Wire>
+    <Wire UId="41">
+      <IdentCon UId="28" />
+      <NameCon UId="33" Name="Channel4_ValueStatus" />
+    </Wire>
+    <Wire UId="42">
+      <IdentCon UId="29" />
+      <NameCon UId="33" Name="Channel5_ValueStatus" />
+    </Wire>
+    <Wire UId="43">
+      <IdentCon UId="30" />
+      <NameCon UId="33" Name="Channel6_ValueStatus" />
+    </Wire>
+    <Wire UId="44">
+      <IdentCon UId="31" />
+      <NameCon UId="33" Name="Channel7_ValueStatus" />
+    </Wire>
+    <Wire UId="45">
+      <NameCon UId="33" Name="FIODia" />
+      <IdentCon UId="32" />
+    </Wire>
+    <Wire UId="46">
+      <Powerrail />
+      <NameCon UId="33" Name="en" />
+    </Wire>
+  </Wires>
+</FlgNet></NetworkSource>
+          <ProgrammingLanguage>F_LAD</ProgrammingLanguage>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="63" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="64" CompositionName="Items">
+                <AttributeList>
+                  <Culture>zh-CN</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+          <MultilingualText ID="65" CompositionName="Title">
+            <ObjectList>
+              <MultilingualTextItem ID="66" CompositionName="Items">
+                <AttributeList>
+                  <Culture>zh-CN</Culture>
+                  <Text>A22.2诊断</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Blocks.CompileUnit>
+      <SW.Blocks.CompileUnit ID="67" CompositionName="CompileUnits">
+        <AttributeList>
+          <NetworkSource />
+          <ProgrammingLanguage>F_LAD</ProgrammingLanguage>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="68" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="69" CompositionName="Items">
+                <AttributeList>
+                  <Culture>zh-CN</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+          <MultilingualText ID="6A" CompositionName="Title">
+            <ObjectList>
+              <MultilingualTextItem ID="6B" CompositionName="Items">
+                <AttributeList>
+                  <Culture>zh-CN</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Blocks.CompileUnit>
+      <SW.Blocks.CompileUnit ID="6C" CompositionName="CompileUnits">
+        <AttributeList>
+          <NetworkSource />
+          <ProgrammingLanguage>F_LAD</ProgrammingLanguage>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="6D" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="6E" CompositionName="Items">
+                <AttributeList>
+                  <Culture>zh-CN</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+          <MultilingualText ID="6F" CompositionName="Title">
+            <ObjectList>
+              <MultilingualTextItem ID="70" CompositionName="Items">
+                <AttributeList>
+                  <Culture>zh-CN</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Blocks.CompileUnit>
+      <MultilingualText ID="71" CompositionName="Title">
+        <ObjectList>
+          <MultilingualTextItem ID="72" CompositionName="Items">
+            <AttributeList>
+              <Culture>zh-CN</Culture>
+              <Text />
+            </AttributeList>
+          </MultilingualTextItem>
+        </ObjectList>
+      </MultilingualText>
+    </ObjectList>
+  </SW.Blocks.FB>
+</Document>
