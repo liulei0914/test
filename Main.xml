@@ -119,7 +119,7 @@
               <MultilingualTextItem ID="7" CompositionName="Items">
                 <AttributeList>
                   <Culture>zh-CN</Culture>
-                  <Text />
+                  <Text>6</Text>
                 </AttributeList>
               </MultilingualTextItem>
             </ObjectList>
